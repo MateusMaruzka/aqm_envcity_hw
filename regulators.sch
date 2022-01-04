@@ -1,0 +1,307 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 5
+Title ""
+Date "2021-12-26"
+Rev "v1.0"
+Comp "UNIOESTE/UTFPR"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Battery_Management_bq:BUCK_BOOST_BOARD U5
+U 1 1 61C62395
+P 2050 2500
+F 0 "U5" H 2050 2525 50  0000 C CNN
+F 1 "BUCK_BOOST_BOARD" H 2050 2434 50  0000 C CNN
+F 2 "22-23-2061:DIP-4_1889_ELL" H 2050 2500 50  0001 C CNN
+F 3 "" H 2050 2500 50  0001 C CNN
+	1    2050 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0115
+U 1 1 61C78244
+P 1650 2950
+F 0 "#PWR0115" H 1650 2700 50  0001 C CNN
+F 1 "GND" H 1655 2777 50  0000 C CNN
+F 2 "" H 1650 2950 50  0001 C CNN
+F 3 "" H 1650 2950 50  0001 C CNN
+	1    1650 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 2900 1650 2900
+Wire Wire Line
+	1650 2900 1650 2950
+$Comp
+L power:GND #PWR0116
+U 1 1 61C78732
+P 2450 2950
+F 0 "#PWR0116" H 2450 2700 50  0001 C CNN
+F 1 "GND" H 2455 2777 50  0000 C CNN
+F 2 "" H 2450 2950 50  0001 C CNN
+F 3 "" H 2450 2950 50  0001 C CNN
+	1    2450 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 2850 2450 2850
+Wire Wire Line
+	2450 2850 2450 2950
+Wire Wire Line
+	2350 2750 2450 2750
+$Comp
+L Regulator_Linear:LM7805_TO220 U6
+U 1 1 61C7A55C
+P 5700 2650
+F 0 "U6" H 5700 2892 50  0000 C CNN
+F 1 "LM7805_TO220" H 5700 2801 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 5700 2875 50  0001 C CIN
+F 3 "http://www.fairchildsemi.com/ds/LM/LM7805.pdf" H 5700 2600 50  0001 C CNN
+	1    5700 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Regulator_Linear:LM1117-3.3 U8
+U 1 1 61C7CD12
+P 9250 2700
+F 0 "U8" H 9250 2942 50  0000 C CNN
+F 1 "LM1117-3.3" H 9250 2851 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 9250 2700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm1117.pdf" H 9250 2700 50  0001 C CNN
+	1    9250 2700
+	1    0    0    -1  
+$EndComp
+Text Notes 4300 1550 0    50   ~ 0
+Linha de Alimentação 5V - Regulada\n5V - 1A\nO diodo 1N4001 é para proteção do regulador caso\na tensão de entrada caia mais rapidamente do que a tensão de saída.\n
+$Comp
+L Device:CP C9
+U 1 1 61C80ED7
+P 5050 2900
+F 0 "C9" H 5168 2946 50  0000 L CNN
+F 1 "0,33uF" H 5168 2855 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm" H 5088 2750 50  0001 C CNN
+F 3 "~" H 5050 2900 50  0001 C CNN
+	1    5050 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C11
+U 1 1 61C81473
+P 6300 2900
+F 0 "C11" H 6418 2946 50  0000 L CNN
+F 1 "0,1uF" H 6418 2855 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm" H 6338 2750 50  0001 C CNN
+F 3 "~" H 6300 2900 50  0001 C CNN
+	1    6300 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0117
+U 1 1 61C81AFD
+P 5050 3150
+F 0 "#PWR0117" H 5050 2900 50  0001 C CNN
+F 1 "GND" H 5055 2977 50  0000 C CNN
+F 2 "" H 5050 3150 50  0001 C CNN
+F 3 "" H 5050 3150 50  0001 C CNN
+	1    5050 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0118
+U 1 1 61C82072
+P 6300 3150
+F 0 "#PWR0118" H 6300 2900 50  0001 C CNN
+F 1 "GND" H 6305 2977 50  0000 C CNN
+F 2 "" H 6300 3150 50  0001 C CNN
+F 3 "" H 6300 3150 50  0001 C CNN
+	1    6300 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 2650 5250 2650
+Wire Wire Line
+	5050 2650 5050 2750
+Wire Wire Line
+	6000 2650 6150 2650
+Wire Wire Line
+	6300 2650 6300 2750
+Wire Wire Line
+	6300 3050 6300 3100
+Connection ~ 5050 2650
+Wire Wire Line
+	5050 3050 5050 3150
+Wire Wire Line
+	5700 2950 5700 3100
+Wire Wire Line
+	5700 3100 6300 3100
+Connection ~ 6300 3100
+Wire Wire Line
+	6300 3100 6300 3150
+$Comp
+L Device:CP C13
+U 1 1 61C90E1A
+P 8600 2950
+F 0 "C13" H 8718 2996 50  0000 L CNN
+F 1 "0,33uF" H 8718 2905 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm" H 8638 2800 50  0001 C CNN
+F 3 "~" H 8600 2950 50  0001 C CNN
+	1    8600 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C14
+U 1 1 61C90E20
+P 9850 2950
+F 0 "C14" H 9968 2996 50  0000 L CNN
+F 1 "0,1uF" H 9968 2905 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm" H 9888 2800 50  0001 C CNN
+F 3 "~" H 9850 2950 50  0001 C CNN
+	1    9850 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0119
+U 1 1 61C90E26
+P 8600 3200
+F 0 "#PWR0119" H 8600 2950 50  0001 C CNN
+F 1 "GND" H 8605 3027 50  0000 C CNN
+F 2 "" H 8600 3200 50  0001 C CNN
+F 3 "" H 8600 3200 50  0001 C CNN
+	1    8600 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0120
+U 1 1 61C90E2C
+P 9850 3200
+F 0 "#PWR0120" H 9850 2950 50  0001 C CNN
+F 1 "GND" H 9855 3027 50  0000 C CNN
+F 2 "" H 9850 3200 50  0001 C CNN
+F 3 "" H 9850 3200 50  0001 C CNN
+	1    9850 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8600 2700 8600 2800
+Wire Wire Line
+	9850 2700 9850 2800
+Wire Wire Line
+	9850 3100 9850 3150
+Connection ~ 8600 2700
+Wire Wire Line
+	8600 3100 8600 3200
+Wire Wire Line
+	9250 3000 9250 3150
+Wire Wire Line
+	9250 3150 9850 3150
+Connection ~ 9850 3150
+Wire Wire Line
+	9850 3150 9850 3200
+Text Notes 7900 1750 0    50   ~ 0
+Linha de Alimentação 3.3V - Regulada\n3.3V - 1A\n
+Connection ~ 6300 2650
+Connection ~ 9850 2700
+$Comp
+L power:+5V #PWR0123
+U 1 1 61C8CB6E
+P 6500 2600
+F 0 "#PWR0123" H 6500 2450 50  0001 C CNN
+F 1 "+5V" H 6515 2773 50  0000 C CNN
+F 2 "" H 6500 2600 50  0001 C CNN
+F 3 "" H 6500 2600 50  0001 C CNN
+	1    6500 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 2600 6500 2650
+Wire Wire Line
+	6300 2650 6500 2650
+$Comp
+L power:+3.3V #PWR0124
+U 1 1 61C8DFF5
+P 10050 2600
+F 0 "#PWR0124" H 10050 2450 50  0001 C CNN
+F 1 "+3.3V" H 10065 2773 50  0000 C CNN
+F 2 "" H 10050 2600 50  0001 C CNN
+F 3 "" H 10050 2600 50  0001 C CNN
+	1    10050 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9850 2700 10050 2700
+Wire Wire Line
+	10050 2600 10050 2700
+$Comp
+L Diode:1N4001 D2
+U 1 1 61C8F479
+P 5700 2250
+F 0 "D2" H 5700 2466 50  0000 C CNN
+F 1 "1N4001" H 5700 2375 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 5700 2075 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 5700 2250 50  0001 C CNN
+	1    5700 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 2250 5250 2250
+Wire Wire Line
+	5250 2250 5250 2650
+Connection ~ 5250 2650
+Wire Wire Line
+	5250 2650 5050 2650
+Wire Wire Line
+	5850 2250 6150 2250
+Wire Wire Line
+	6150 2250 6150 2650
+Connection ~ 6150 2650
+Wire Wire Line
+	6150 2650 6300 2650
+$Comp
+L Diode:1N4001 D4
+U 1 1 61C910DA
+P 9250 2300
+F 0 "D4" H 9250 2516 50  0000 C CNN
+F 1 "1N4001" H 9250 2425 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 9250 2125 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 9250 2300 50  0001 C CNN
+	1    9250 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9550 2700 9650 2700
+Wire Wire Line
+	8600 2700 8800 2700
+Wire Wire Line
+	9400 2300 9650 2300
+Wire Wire Line
+	9650 2300 9650 2700
+Connection ~ 9650 2700
+Wire Wire Line
+	9650 2700 9850 2700
+Wire Wire Line
+	9100 2300 8800 2300
+Wire Wire Line
+	8800 2300 8800 2700
+Connection ~ 8800 2700
+Wire Wire Line
+	8800 2700 8950 2700
+Text HLabel 2450 2750 2    50   Output ~ 0
+9V_BUCK_BOOST
+Text HLabel 1750 2700 0    50   Input ~ 0
+Vin
+Text HLabel 4900 2650 0    50   Output ~ 0
+9V_BUCK_BOOST
+Text HLabel 8400 2700 0    50   Output ~ 0
+9V_BUCK_BOOST
+Wire Wire Line
+	8400 2700 8600 2700
+Wire Wire Line
+	4900 2650 5050 2650
+$EndSCHEMATC
