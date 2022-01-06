@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 5
+Sheet 3 7
 Title ""
 Date "2021-12-26"
 Rev "v1.0"
@@ -40,8 +40,6 @@ Wire Wire Line
 	4700 3750 4600 3750
 Text Label 4600 3450 2    50   ~ 0
 AIN0
-Wire Wire Line
-	4700 3650 4600 3650
 $Comp
 L dk_Data-Acquisition-Analog-to-Digital-Converters-ADC:ADS1115IDGST U2
 U 1 1 61BD8443
@@ -62,8 +60,6 @@ F 12 "Active" H 5400 4850 60  0001 L CNN "Status"
 	1    5200 3650
 	1    0    0    -1  
 $EndComp
-Text Label 4600 3650 2    50   ~ 0
-AIN2
 Text Label 4600 3750 2    50   ~ 0
 AIN3
 $Comp
@@ -560,10 +556,10 @@ Text HLabel 8800 4300 2    50   Input ~ 0
 I14
 Text HLabel 8800 4400 2    50   Input ~ 0
 I15
-Text GLabel 4050 3550 0    50   Input ~ 0
-AIN1
+Text GLabel 4050 3650 0    50   Input ~ 0
+AIN2
 Wire Wire Line
-	4050 3550 4700 3550
+	4050 3650 4700 3650
 Wire Wire Line
 	8200 2550 8200 2600
 Wire Wire Line
@@ -573,10 +569,10 @@ AD_SDA
 Text HLabel 4600 3850 0    50   Input ~ 0
 AD_SCL
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR0139
 U 1 1 61DBE0C8
 P 6100 1700
-F 0 "#PWR?" H 6100 1550 50  0001 C CNN
+F 0 "#PWR0139" H 6100 1550 50  0001 C CNN
 F 1 "+5V" H 6115 1873 50  0000 C CNN
 F 2 "" H 6100 1700 50  0001 C CNN
 F 3 "" H 6100 1700 50  0001 C CNN
@@ -584,10 +580,10 @@ F 3 "" H 6100 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR0140
 U 1 1 61DBF330
 P 8200 2550
-F 0 "#PWR?" H 8200 2400 50  0001 C CNN
+F 0 "#PWR0140" H 8200 2400 50  0001 C CNN
 F 1 "+5V" H 8215 2723 50  0000 C CNN
 F 2 "" H 8200 2550 50  0001 C CNN
 F 3 "" H 8200 2550 50  0001 C CNN
@@ -595,10 +591,10 @@ F 3 "" H 8200 2550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR0141
 U 1 1 61DBF85C
 P 5200 3000
-F 0 "#PWR?" H 5200 2850 50  0001 C CNN
+F 0 "#PWR0141" H 5200 2850 50  0001 C CNN
 F 1 "+5V" H 5215 3173 50  0000 C CNN
 F 2 "" H 5200 3000 50  0001 C CNN
 F 3 "" H 5200 3000 50  0001 C CNN
