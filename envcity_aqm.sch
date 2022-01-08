@@ -573,44 +573,18 @@ Wire Wire Line
 	2100 1850 1900 1850
 Wire Wire Line
 	2100 1750 1900 1750
-Entry Wire Line
-	8100 4100 8200 4000
-Entry Wire Line
-	8100 4200 8200 4100
-Entry Wire Line
-	8100 4300 8200 4200
-Entry Wire Line
-	8100 4400 8200 4300
-Wire Wire Line
-	7950 4100 8100 4100
-Wire Wire Line
-	7950 4200 8100 4200
-Wire Wire Line
-	7950 4300 8100 4300
-Wire Wire Line
-	7950 4400 8100 4400
-Text Label 8000 4100 0    50   ~ 0
-S0
-Text Label 8000 4200 0    50   ~ 0
-S1
-Text Label 8000 4300 0    50   ~ 0
-S2
-Text Label 8000 4400 0    50   ~ 0
-S3
 Wire Wire Line
 	6450 4100 6250 4100
 Wire Wire Line
 	6450 4200 6250 4200
 Wire Wire Line
 	6450 4300 6250 4300
-Text Label 6250 4650 2    50   ~ 0
+Text Label 6250 4200 2    50   ~ 0
 RASP_SCL0
-Text Label 6250 4550 2    50   ~ 0
+Text Label 6250 4100 2    50   ~ 0
 RASP_SDA0
-Text Label 6250 4750 2    50   ~ 0
+Text Label 6250 4300 2    50   ~ 0
 RASP_INT0
-Wire Bus Line
-	8200 3950 8500 3950
 Wire Wire Line
 	7650 1100 7450 1100
 Wire Wire Line
@@ -629,14 +603,12 @@ Wire Wire Line
 	6450 4650 6250 4650
 Wire Wire Line
 	6450 4750 6250 4750
-Text Label 6250 4100 2    50   ~ 0
+Text Label 6250 4550 2    50   ~ 0
 BQ_SDA
-Text Label 6250 4200 2    50   ~ 0
+Text Label 6250 4650 2    50   ~ 0
 BQ_SCL
-Text Label 6250 4300 2    50   ~ 0
+Text Label 6250 4750 2    50   ~ 0
 BQ_INT
-Entry Wire Line
-	6150 4950 6050 5050
 Entry Wire Line
 	6050 5150 6150 5050
 Entry Wire Line
@@ -684,8 +656,8 @@ Wire Wire Line
 Text Label 6350 1400 0    50   ~ 0
 DHT22
 Wire Wire Line
-	7950 4650 8200 4650
-Text Label 8200 4650 0    50   ~ 0
+	7950 4750 8200 4750
+Text Label 8200 4750 0    50   ~ 0
 DHT22
 $Sheet
 S 8900 2550 1300 850 
@@ -716,8 +688,6 @@ Text Label 8900 3150 2    50   ~ 0
 DIO1
 Text Label 8900 3250 2    50   ~ 0
 DIO0
-Text Label 8250 3950 0    50   ~ 0
-S[0..3]
 Wire Wire Line
 	8700 2750 8900 2750
 Wire Wire Line
@@ -794,14 +764,14 @@ Wire Wire Line
 	10200 3150 10300 3150
 Text Label 10300 3150 0    50   ~ 0
 RESET
-Text Label 6200 5550 2    50   ~ 0
+Text Label 6200 5800 2    50   ~ 0
 NSS
-Text Label 6200 5650 2    50   ~ 0
+Text Label 6200 5700 2    50   ~ 0
 RESET
 Wire Wire Line
-	6450 5550 6200 5550
+	6450 5700 6200 5700
 Wire Wire Line
-	6450 5650 6200 5650
+	6450 5800 6200 5800
 $Comp
 L Connector:Conn_01x03_Male J10
 U 1 1 62026C8E
@@ -966,27 +936,55 @@ F4 "INT1" I L 6450 4300 50
 F5 "SCL0" I L 6450 4650 50 
 F6 "SDA0" I L 6450 4550 50 
 F7 "INT0" I L 6450 4750 50 
-F8 "GPIO20" I L 6450 5550 50 
+F8 "GPIO20" I L 6450 5700 50 
 F9 "SPI0_MOSI" I L 6450 4950 50 
 F10 "SPI0_MISO" I L 6450 5050 50 
 F11 "SPI0_CLK" I L 6450 5150 50 
 F12 "TXD0" I R 7950 4900 50 
 F13 "RXD0" I R 7950 5000 50 
-F14 "GPIO27" I L 6450 5650 50 
+F14 "GPIO27" I L 6450 5350 50 
 F15 "GPIO18" I R 7950 5300 50 
 F16 "GPIO24" I R 7950 5400 50 
 F17 "GPIO25" I R 7950 5500 50 
-F18 "GPIO26" I R 7950 4100 50 
+F18 "GPIO26" I L 6450 5800 50 
 F19 "GPIO22" I R 7950 5700 50 
 F20 "GPIO21" I R 7950 4650 50 
 F21 "GPIO13" I R 7950 4300 50 
-F22 "GPIO04" I R 7950 4800 50 
-F23 "GPIO16" I L 6450 5400 50 
+F22 "GPIO04" I R 7950 4750 50 
+F23 "GPIO16" I R 7950 5200 50 
 F24 "GPIO19" I R 7950 4200 50 
 F25 "GPIO23" I R 7950 5600 50 
-F26 "GPIO05" I L 6450 5850 50 
+F26 "GPIO05" I R 7950 4500 50 
 F27 "GPIO06" I R 7950 4400 50 
 $EndSheet
+Text Label 8250 4050 0    50   ~ 0
+S[0..3]
+Wire Bus Line
+	8200 4050 8500 4050
+Text Label 8000 4500 0    50   ~ 0
+S3
+Text Label 8000 4400 0    50   ~ 0
+S2
+Text Label 8000 4300 0    50   ~ 0
+S1
+Text Label 8000 4200 0    50   ~ 0
+S0
+Wire Wire Line
+	7950 4500 8100 4500
+Wire Wire Line
+	7950 4400 8100 4400
+Wire Wire Line
+	7950 4300 8100 4300
+Wire Wire Line
+	7950 4200 8100 4200
+Entry Wire Line
+	8100 4500 8200 4400
+Entry Wire Line
+	8100 4400 8200 4300
+Entry Wire Line
+	8100 4300 8200 4200
+Entry Wire Line
+	8100 4200 8200 4100
 Wire Bus Line
 	6050 5050 6050 5300
 Wire Bus Line
@@ -994,11 +992,11 @@ Wire Bus Line
 Wire Bus Line
 	8600 2850 8600 3350
 Wire Bus Line
-	8200 3950 8200 4350
-Wire Bus Line
 	1800 1650 1800 2400
 Wire Bus Line
 	8250 5050 8250 5600
+Wire Bus Line
+	8200 4050 8200 4450
 Wire Bus Line
 	4450 1150 4450 2400
 Wire Bus Line

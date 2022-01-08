@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 7
+Sheet 6 7
 Title ""
 Date ""
 Rev ""
@@ -19,7 +19,7 @@ U 1 1 61DA8ABC
 P 5250 4000
 F 0 "U7" H 5250 4681 50  0000 C CNN
 F 1 "RFM95W-915S2" H 5250 4590 50  0000 C CNN
-F 2 "RF_Module:HOPERF_RFM9XW_SMD" H 1950 5650 50  0001 C CNN
+F 2 "RF_Module:HOPERF_RFM9XW_THT" H 1950 5650 50  0001 C CNN
 F 3 "https://www.hoperf.com/data/upload/portal/20181127/5bfcbea20e9ef.pdf" H 1950 5650 50  0001 C CNN
 	1    5250 4000
 	1    0    0    -1  
