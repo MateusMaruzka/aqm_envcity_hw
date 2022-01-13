@@ -1,0 +1,527 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 7 7
+Title ""
+Date "2021-12-26"
+Rev "v1.0"
+Comp "UNIOESTE/UTFPR"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Notes Line
+	1350 2400 2350 2400
+Wire Notes Line
+	2350 850  1350 850 
+Wire Notes Line
+	1350 850  1350 2400
+Wire Wire Line
+	1650 1600 1750 1600
+Wire Wire Line
+	1650 1800 1750 1800
+Text Notes 1650 800  0    50   ~ 0
+ISB CO-B4\n
+Text Notes 4800 800  0    50   ~ 0
+Anemômetro
+Text Notes 6300 800  0    50   ~ 0
+DHT22
+Wire Notes Line
+	4500 2400 5500 2400
+Wire Notes Line
+	5500 2400 5500 850 
+Wire Notes Line
+	5500 850  4500 850 
+Wire Notes Line
+	4500 850  4500 2400
+Wire Notes Line
+	5900 2400 6900 2400
+Wire Notes Line
+	6900 2400 6900 850 
+Wire Notes Line
+	6900 850  5900 850 
+Wire Notes Line
+	5900 850  5900 2400
+Wire Notes Line
+	2350 2400 2350 850 
+Text Notes 3000 4800 0    50   ~ 0
+ISB OX-B431\n
+Text Notes 1600 4800 0    50   ~ 0
+ISB NO2-B43F
+Text Notes 3050 2850 0    50   ~ 0
+ISB NH3-B1\n
+Text Notes 1650 2850 0    50   ~ 0
+ISB SO2-B4\n
+Text Notes 3050 800  0    50   ~ 0
+ISB H2S-B4\n
+Wire Notes Line
+	2750 2400 3750 2400
+Wire Notes Line
+	3750 850  2750 850 
+Wire Notes Line
+	2750 850  2750 2400
+$Comp
+L Connector:Conn_01x06_Male J9
+U 1 1 61C57284
+P 2850 1600
+F 0 "J9" H 3100 2000 50  0000 C CNN
+F 1 "Conn_01x06_Male" H 3100 1900 50  0000 C CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-06A_1x06_P2.54mm_Vertical" H 2850 1600 50  0001 C CNN
+F 3 "~" H 2850 1600 50  0001 C CNN
+	1    2850 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 1600 3150 1600
+Wire Wire Line
+	3050 1800 3150 1800
+Wire Notes Line
+	3750 2400 3750 850 
+Wire Notes Line
+	1350 4450 2350 4450
+Wire Notes Line
+	2350 2900 1350 2900
+Wire Notes Line
+	1350 2900 1350 4450
+$Comp
+L Connector:Conn_01x06_Male J7
+U 1 1 61C5F8EA
+P 1450 3650
+F 0 "J7" H 1700 4050 50  0000 C CNN
+F 1 "Conn_01x06_Male" H 1700 3950 50  0000 C CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-06A_1x06_P2.54mm_Vertical" H 1450 3650 50  0001 C CNN
+F 3 "~" H 1450 3650 50  0001 C CNN
+	1    1450 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 3650 1750 3650
+Wire Wire Line
+	1650 3850 1750 3850
+Wire Notes Line
+	2350 4450 2350 2900
+Wire Notes Line
+	2750 4450 3750 4450
+Wire Notes Line
+	3750 2900 2750 2900
+Wire Notes Line
+	2750 2900 2750 4450
+$Comp
+L Connector:Conn_01x06_Male J10
+U 1 1 61C5F904
+P 2850 3650
+F 0 "J10" H 3100 4050 50  0000 C CNN
+F 1 "Conn_01x06_Male" H 3100 3950 50  0000 C CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-06A_1x06_P2.54mm_Vertical" H 2850 3650 50  0001 C CNN
+F 3 "~" H 2850 3650 50  0001 C CNN
+	1    2850 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 3650 3150 3650
+Wire Wire Line
+	3050 3850 3150 3850
+Wire Notes Line
+	3750 4450 3750 2900
+Wire Notes Line
+	1350 6400 2350 6400
+Wire Notes Line
+	2350 4850 1350 4850
+Wire Notes Line
+	1350 4850 1350 6400
+$Comp
+L Connector:Conn_01x06_Male J8
+U 1 1 61C64616
+P 1450 5600
+F 0 "J8" H 1700 6000 50  0000 C CNN
+F 1 "Conn_01x06_Male" H 1700 5900 50  0000 C CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-06A_1x06_P2.54mm_Vertical" H 1450 5600 50  0001 C CNN
+F 3 "~" H 1450 5600 50  0001 C CNN
+	1    1450 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 5600 1750 5600
+Wire Wire Line
+	1650 5800 1750 5800
+Wire Notes Line
+	2350 6400 2350 4850
+Wire Notes Line
+	2750 6400 3750 6400
+Wire Notes Line
+	3750 4850 2750 4850
+Wire Notes Line
+	2750 4850 2750 6400
+$Comp
+L Connector:Conn_01x06_Male J11
+U 1 1 61C64630
+P 2850 5600
+F 0 "J11" H 3100 6000 50  0000 C CNN
+F 1 "Conn_01x06_Male" H 3100 5900 50  0000 C CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-06A_1x06_P2.54mm_Vertical" H 2850 5600 50  0001 C CNN
+F 3 "~" H 2850 5600 50  0001 C CNN
+	1    2850 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 5600 3150 5600
+Wire Wire Line
+	3050 5800 3150 5800
+Wire Notes Line
+	3750 6400 3750 4850
+$Comp
+L Connector:Conn_01x06_Male J6
+U 1 1 61C2A57A
+P 1450 1600
+F 0 "J6" H 1700 2000 50  0000 C CNN
+F 1 "Conn_01x06_Male" H 1700 1900 50  0000 C CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-06A_1x06_P2.54mm_Vertical" H 1450 1600 50  0001 C CNN
+F 3 "~" H 1450 1600 50  0001 C CNN
+	1    1450 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Female J12
+U 1 1 61C6F8C4
+P 5350 1700
+F 0 "J12" H 4950 2050 50  0000 L CNN
+F 1 "Conn_01x03_Female" H 4650 1950 50  0000 L CNN
+F 2 "Connector:FanPinHeader_1x03_P2.54mm_Vertical" H 5350 1700 50  0001 C CNN
+F 3 "~" H 5350 1700 50  0001 C CNN
+	1    5350 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Sensor:DHT11 U7
+U 1 1 61C728C4
+P 6400 1650
+F 0 "U7" H 6156 1696 50  0000 R CNN
+F 1 "DHT11" H 6156 1605 50  0000 R CNN
+F 2 "Sensor:Aosong_DHT11_5.5x12.0_P2.54mm" H 6400 1250 50  0001 C CNN
+F 3 "http://akizukidenshi.com/download/ds/aosong/DHT11.pdf" H 6550 1900 50  0001 C CNN
+	1    6400 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0140
+U 1 1 61C7572B
+P 6400 2050
+F 0 "#PWR0140" H 6400 1800 50  0001 C CNN
+F 1 "GND" H 6405 1877 50  0000 C CNN
+F 2 "" H 6400 2050 50  0001 C CNN
+F 3 "" H 6400 2050 50  0001 C CNN
+	1    6400 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 1950 6400 2050
+Text Notes 4550 2350 0    50   ~ 0
+Pin 1 - Power (brown wire)\nPin 2 - Ground (black wire) \nPin 3 - Signal (blue wire)\nPin 4 not connected
+$Comp
+L power:GND #PWR0141
+U 1 1 61C789C3
+P 4950 1700
+F 0 "#PWR0141" H 4950 1450 50  0001 C CNN
+F 1 "GND" V 4955 1572 50  0000 R CNN
+F 2 "" H 4950 1700 50  0001 C CNN
+F 3 "" H 4950 1700 50  0001 C CNN
+	1    4950 1700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5150 1800 5050 1800
+Wire Wire Line
+	4950 1700 5150 1700
+$Comp
+L power:+5V #PWR0142
+U 1 1 61C90CFA
+P 2200 1250
+F 0 "#PWR0142" H 2200 1100 50  0001 C CNN
+F 1 "+5V" H 2215 1423 50  0000 C CNN
+F 2 "" H 2200 1250 50  0001 C CNN
+F 3 "" H 2200 1250 50  0001 C CNN
+	1    2200 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 1250 2200 1400
+Wire Wire Line
+	1650 1400 2200 1400
+$Comp
+L power:+5V #PWR0143
+U 1 1 61C92B2A
+P 3600 1250
+F 0 "#PWR0143" H 3600 1100 50  0001 C CNN
+F 1 "+5V" H 3615 1423 50  0000 C CNN
+F 2 "" H 3600 1250 50  0001 C CNN
+F 3 "" H 3600 1250 50  0001 C CNN
+	1    3600 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 1400 3600 1400
+Wire Wire Line
+	3600 1400 3600 1250
+$Comp
+L power:+5V #PWR0144
+U 1 1 61C95B54
+P 2200 3350
+F 0 "#PWR0144" H 2200 3200 50  0001 C CNN
+F 1 "+5V" H 2215 3523 50  0000 C CNN
+F 2 "" H 2200 3350 50  0001 C CNN
+F 3 "" H 2200 3350 50  0001 C CNN
+	1    2200 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0145
+U 1 1 61C960FB
+P 3600 3350
+F 0 "#PWR0145" H 3600 3200 50  0001 C CNN
+F 1 "+5V" H 3615 3523 50  0000 C CNN
+F 2 "" H 3600 3350 50  0001 C CNN
+F 3 "" H 3600 3350 50  0001 C CNN
+	1    3600 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0146
+U 1 1 61C966FF
+P 2200 5350
+F 0 "#PWR0146" H 2200 5200 50  0001 C CNN
+F 1 "+5V" H 2215 5523 50  0000 C CNN
+F 2 "" H 2200 5350 50  0001 C CNN
+F 3 "" H 2200 5350 50  0001 C CNN
+	1    2200 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0147
+U 1 1 61C96BA5
+P 3600 5350
+F 0 "#PWR0147" H 3600 5200 50  0001 C CNN
+F 1 "+5V" H 3615 5523 50  0000 C CNN
+F 2 "" H 3600 5350 50  0001 C CNN
+F 3 "" H 3600 5350 50  0001 C CNN
+	1    3600 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 1600 5050 1600
+$Comp
+L power:+5V #PWR0148
+U 1 1 61C9C239
+P 6400 1250
+F 0 "#PWR0148" H 6400 1100 50  0001 C CNN
+F 1 "+5V" H 6415 1423 50  0000 C CNN
+F 2 "" H 6400 1250 50  0001 C CNN
+F 3 "" H 6400 1250 50  0001 C CNN
+	1    6400 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 1250 6400 1350
+Wire Wire Line
+	2200 3350 2200 3450
+Wire Wire Line
+	1650 3450 2200 3450
+Wire Wire Line
+	3600 3350 3600 3450
+Wire Wire Line
+	3050 3450 3600 3450
+Wire Wire Line
+	2200 5350 2200 5400
+Wire Wire Line
+	1650 5400 2200 5400
+Wire Wire Line
+	3600 5350 3600 5400
+Wire Wire Line
+	3050 5400 3600 5400
+Text HLabel 1750 1600 2    50   Input ~ 0
+CO_ANALOG
+Text HLabel 1750 1800 2    50   Input ~ 0
+CO_ANALOG_AUX
+$Comp
+L power:GND #PWR0149
+U 1 1 61CE7471
+P 1700 1950
+F 0 "#PWR0149" H 1700 1700 50  0001 C CNN
+F 1 "GND" H 1705 1777 50  0000 C CNN
+F 2 "" H 1700 1950 50  0001 C CNN
+F 3 "" H 1700 1950 50  0001 C CNN
+	1    1700 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 1950 1700 1900
+Wire Wire Line
+	1650 1500 1700 1500
+Wire Wire Line
+	1700 1500 1700 1700
+Wire Wire Line
+	1700 1700 1650 1700
+Wire Wire Line
+	1700 1700 1700 1900
+Wire Wire Line
+	1700 1900 1650 1900
+Connection ~ 1700 1700
+Connection ~ 1700 1900
+Wire Wire Line
+	3050 1500 3100 1500
+Wire Wire Line
+	3100 1500 3100 1700
+Wire Wire Line
+	3100 1700 3050 1700
+Wire Wire Line
+	3100 1700 3100 1900
+Wire Wire Line
+	3100 1900 3050 1900
+Connection ~ 3100 1700
+$Comp
+L power:GND #PWR0150
+U 1 1 61CF5F42
+P 3150 2000
+F 0 "#PWR0150" H 3150 1750 50  0001 C CNN
+F 1 "GND" H 3155 1827 50  0000 C CNN
+F 2 "" H 3150 2000 50  0001 C CNN
+F 3 "" H 3150 2000 50  0001 C CNN
+	1    3150 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 1900 3100 1950
+Wire Wire Line
+	3100 1950 3150 1950
+Wire Wire Line
+	3150 1950 3150 2000
+Connection ~ 3100 1900
+Text HLabel 3150 1600 2    50   Input ~ 0
+H2S_ANALOG
+Text HLabel 3150 1800 2    50   Input ~ 0
+H2S_ANALOG_AUX
+Text HLabel 5050 1800 0    50   Input ~ 0
+ANEM_ANALOG
+Text HLabel 1750 3650 2    50   Input ~ 0
+SO2_ANALOG
+Text HLabel 1750 3850 2    50   Input ~ 0
+SO2_ANALOG_AUX
+Wire Wire Line
+	1650 3550 1700 3550
+Wire Wire Line
+	1700 3550 1700 3750
+Wire Wire Line
+	1700 3750 1650 3750
+Wire Wire Line
+	1700 3750 1700 3950
+Wire Wire Line
+	1700 3950 1650 3950
+Connection ~ 1700 3750
+$Comp
+L power:GND #PWR0151
+U 1 1 61CFC141
+P 1700 4000
+F 0 "#PWR0151" H 1700 3750 50  0001 C CNN
+F 1 "GND" H 1705 3827 50  0000 C CNN
+F 2 "" H 1700 4000 50  0001 C CNN
+F 3 "" H 1700 4000 50  0001 C CNN
+	1    1700 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 3950 1700 4000
+Connection ~ 1700 3950
+Wire Wire Line
+	3050 3550 3100 3550
+Wire Wire Line
+	3100 3550 3100 3750
+Wire Wire Line
+	3100 3750 3050 3750
+Wire Wire Line
+	3100 3750 3100 3950
+Wire Wire Line
+	3100 3950 3050 3950
+Connection ~ 3100 3750
+Wire Wire Line
+	3100 3950 3100 4000
+Connection ~ 3100 3950
+$Comp
+L power:GND #PWR0152
+U 1 1 61D036A9
+P 3100 4000
+F 0 "#PWR0152" H 3100 3750 50  0001 C CNN
+F 1 "GND" H 3105 3827 50  0000 C CNN
+F 2 "" H 3100 4000 50  0001 C CNN
+F 3 "" H 3100 4000 50  0001 C CNN
+	1    3100 4000
+	1    0    0    -1  
+$EndComp
+Text HLabel 3150 3650 2    50   Input ~ 0
+NH3_ANALOG
+Text HLabel 3150 3850 2    50   Input ~ 0
+NH3_ANALOG_AUX
+Wire Wire Line
+	1650 5500 1700 5500
+Wire Wire Line
+	1700 5500 1700 5700
+Wire Wire Line
+	1700 5700 1650 5700
+Wire Wire Line
+	1700 5700 1700 5900
+Wire Wire Line
+	1700 5900 1650 5900
+Connection ~ 1700 5700
+$Comp
+L power:GND #PWR0153
+U 1 1 61D0815C
+P 1700 5950
+F 0 "#PWR0153" H 1700 5700 50  0001 C CNN
+F 1 "GND" H 1705 5777 50  0000 C CNN
+F 2 "" H 1700 5950 50  0001 C CNN
+F 3 "" H 1700 5950 50  0001 C CNN
+	1    1700 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 5900 1700 5950
+Connection ~ 1700 5900
+Text HLabel 1750 5600 2    50   Input ~ 0
+NO2_ANALOG
+Text HLabel 1750 5800 2    50   Input ~ 0
+NO2_ANALOG_AUX
+Wire Wire Line
+	3050 5500 3100 5500
+Wire Wire Line
+	3100 5500 3100 5700
+Wire Wire Line
+	3100 5700 3050 5700
+Wire Wire Line
+	3100 5700 3100 5900
+Wire Wire Line
+	3100 5900 3050 5900
+Connection ~ 3100 5700
+Wire Wire Line
+	3100 5900 3100 5950
+Connection ~ 3100 5900
+$Comp
+L power:GND #PWR0154
+U 1 1 61D10D52
+P 3100 5950
+F 0 "#PWR0154" H 3100 5700 50  0001 C CNN
+F 1 "GND" H 3105 5777 50  0000 C CNN
+F 2 "" H 3100 5950 50  0001 C CNN
+F 3 "" H 3100 5950 50  0001 C CNN
+	1    3100 5950
+	1    0    0    -1  
+$EndComp
+Text HLabel 3150 5600 2    50   Input ~ 0
+OX_ANALOG
+Text HLabel 3150 5800 2    50   Input ~ 0
+OX_ANALOG_AUX
+Text HLabel 5050 1600 0    50   Input ~ 0
+Vin_9V
+Text HLabel 6700 1650 2    50   Input ~ 0
+DHT_OUTPUT
+$EndSCHEMATC
