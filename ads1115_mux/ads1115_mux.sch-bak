@@ -14,18 +14,16 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0118
 U 1 1 61BD9587
 P 5200 4350
-F 0 "#PWR?" H 5200 4100 50  0001 C CNN
+F 0 "#PWR0118" H 5200 4100 50  0001 C CNN
 F 1 "GND" H 5205 4177 50  0000 C CNN
 F 2 "" H 5200 4350 50  0001 C CNN
 F 3 "" H 5200 4350 50  0001 C CNN
 	1    5200 4350
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5200 4200 5200 4350
 Wire Wire Line
 	5200 3000 5200 3100
 Wire Wire Line
@@ -35,10 +33,10 @@ Wire Wire Line
 Wire Wire Line
 	4700 3350 4600 3350
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0119
 U 1 1 61BDA573
 P 4600 3250
-F 0 "#PWR?" H 4600 3000 50  0001 C CNN
+F 0 "#PWR0119" H 4600 3000 50  0001 C CNN
 F 1 "GND" H 4605 3077 50  0000 C CNN
 F 2 "" H 4600 3250 50  0001 C CNN
 F 3 "" H 4600 3250 50  0001 C CNN
@@ -48,10 +46,10 @@ $EndComp
 Wire Wire Line
 	4600 3250 4600 3350
 $Comp
-L Device:C_Small C?
+L Device:C_Small C6
 U 1 1 61BDB9A1
 P 9600 2750
-F 0 "C?" H 9692 2796 50  0000 L CNN
+F 0 "C6" H 9692 2796 50  0000 L CNN
 F 1 "1uF" H 9692 2705 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 9600 2750 50  0001 C CNN
 F 3 "~" H 9600 2750 50  0001 C CNN
@@ -59,18 +57,16 @@ F 3 "~" H 9600 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0120
 U 1 1 61BDC993
 P 9600 2950
-F 0 "#PWR?" H 9600 2700 50  0001 C CNN
+F 0 "#PWR0120" H 9600 2700 50  0001 C CNN
 F 1 "GND" H 9605 2777 50  0000 C CNN
 F 2 "" H 9600 2950 50  0001 C CNN
 F 3 "" H 9600 2950 50  0001 C CNN
 	1    9600 2950
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9600 2850 9600 2950
 Text Notes 650  3600 0    50   ~ 0
 O endereço I2C é selecionado pelo pino ADDR. \nEste pino deve ser conectado ao GND, VSS, SCL ou SDA. \nCada conexão faz com que o CI selecione um endereço.
 $Bitmap
@@ -404,10 +400,10 @@ Wire Notes Line
 Wire Notes Line
 	550  4250 550  3200
 $Comp
-L 74xx:CD74HC4067M U?
+L 74xx:CD74HC4067M U5
 U 1 1 61BE2AAD
 P 8200 3600
-F 0 "U?" H 8650 4700 50  0000 C CNN
+F 0 "U5" H 8650 4700 50  0000 C CNN
 F 1 "CD74HC4067M" H 8650 4550 50  0000 C CNN
 F 2 "Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm" H 9100 2600 50  0001 C CIN
 F 3 "http://www.ti.com/lit/ds/symlink/cd74hc4067.pdf" H 7850 4450 50  0001 C CNN
@@ -423,10 +419,10 @@ Wire Wire Line
 Wire Wire Line
 	7700 3800 7600 3800
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0121
 U 1 1 61BE4F67
 P 8200 4800
-F 0 "#PWR?" H 8200 4550 50  0001 C CNN
+F 0 "#PWR0121" H 8200 4550 50  0001 C CNN
 F 1 "GND" H 8205 4627 50  0000 C CNN
 F 2 "" H 8200 4800 50  0001 C CNN
 F 3 "" H 8200 4800 50  0001 C CNN
@@ -434,14 +430,12 @@ F 3 "" H 8200 4800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8200 4700 8200 4800
-Wire Wire Line
 	7700 4200 7600 4200
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0122
 U 1 1 61BE7A89
 P 7600 4200
-F 0 "#PWR?" H 7600 3950 50  0001 C CNN
+F 0 "#PWR0122" H 7600 3950 50  0001 C CNN
 F 1 "GND" V 7605 4072 50  0000 R CNN
 F 2 "" H 7600 4200 50  0001 C CNN
 F 3 "" H 7600 4200 50  0001 C CNN
@@ -531,10 +525,10 @@ AD_SDA
 Text HLabel 4600 3850 0    50   Input ~ 0
 AD_SCL
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR0123
 U 1 1 61DBE0C8
 P 9600 2550
-F 0 "#PWR?" H 9600 2400 50  0001 C CNN
+F 0 "#PWR0123" H 9600 2400 50  0001 C CNN
 F 1 "+5V" H 9615 2723 50  0000 C CNN
 F 2 "" H 9600 2550 50  0001 C CNN
 F 3 "" H 9600 2550 50  0001 C CNN
@@ -542,10 +536,10 @@ F 3 "" H 9600 2550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR0124
 U 1 1 61DBF330
 P 8200 2550
-F 0 "#PWR?" H 8200 2400 50  0001 C CNN
+F 0 "#PWR0124" H 8200 2400 50  0001 C CNN
 F 1 "+5V" H 8215 2723 50  0000 C CNN
 F 2 "" H 8200 2550 50  0001 C CNN
 F 3 "" H 8200 2550 50  0001 C CNN
@@ -553,10 +547,10 @@ F 3 "" H 8200 2550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR0125
 U 1 1 61DBF85C
 P 5200 3000
-F 0 "#PWR?" H 5200 2850 50  0001 C CNN
+F 0 "#PWR0125" H 5200 2850 50  0001 C CNN
 F 1 "+5V" H 5215 3173 50  0000 C CNN
 F 2 "" H 5200 3000 50  0001 C CNN
 F 3 "" H 5200 3000 50  0001 C CNN
@@ -564,10 +558,10 @@ F 3 "" H 5200 3000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L dk_Data-Acquisition-Analog-to-Digital-Converters-ADC:ADS1115IDGST U?
+L dk_Data-Acquisition-Analog-to-Digital-Converters-ADC:ADS1115IDGST U4
 U 1 1 61DD285B
 P 5200 3650
-F 0 "U?" H 5650 4250 60  0000 L CNN
+F 0 "U4" H 5650 4250 60  0000 L CNN
 F 1 "ADS1115IDGST" H 5350 4100 60  0000 L CNN
 F 2 "digikey-footprints:MSOP-10_W3mm" H 5400 3850 60  0001 L CNN
 F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fads1113" H 5400 3950 60  0001 L CNN
@@ -603,4 +597,11 @@ Text HLabel 4550 3750 0    50   Input ~ 0
 AIN3
 Text HLabel 7700 3100 0    50   Input ~ 0
 AIN0
+Wire Wire Line
+	9600 2850 9600 2950
+NoConn ~ 5450 4050
+Wire Wire Line
+	8200 4700 8200 4800
+Wire Wire Line
+	5200 4200 5200 4350
 $EndSCHEMATC

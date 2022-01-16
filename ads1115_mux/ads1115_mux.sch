@@ -25,8 +25,6 @@ F 3 "" H 5200 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5200 4200 5200 4350
-Wire Wire Line
 	5200 3000 5200 3100
 Wire Wire Line
 	4700 3850 4600 3850
@@ -69,8 +67,6 @@ F 3 "" H 9600 2950 50  0001 C CNN
 	1    9600 2950
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9600 2850 9600 2950
 Text Notes 650  3600 0    50   ~ 0
 O endereço I2C é selecionado pelo pino ADDR. \nEste pino deve ser conectado ao GND, VSS, SCL ou SDA. \nCada conexão faz com que o CI selecione um endereço.
 $Bitmap
@@ -434,8 +430,6 @@ F 3 "" H 8200 4800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8200 4700 8200 4800
-Wire Wire Line
 	7700 4200 7600 4200
 $Comp
 L power:GND #PWR0122
@@ -603,4 +597,11 @@ Text HLabel 4550 3750 0    50   Input ~ 0
 AIN3
 Text HLabel 7700 3100 0    50   Input ~ 0
 AIN0
+Wire Wire Line
+	9600 2850 9600 2950
+NoConn ~ 5450 4050
+Wire Wire Line
+	8200 4700 8200 4800
+Wire Wire Line
+	5200 4200 5200 4350
 $EndSCHEMATC
