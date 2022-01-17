@@ -3543,20 +3543,6 @@ Wire Wire Line
 Connection ~ 4750 2200
 Wire Wire Line
 	4750 2200 4750 2250
-$Comp
-L power:+5V #PWR?
-U 1 1 61DB6E79
-P 5050 2200
-AR Path="/61C25AB3/61DB6E79" Ref="#PWR?"  Part="1" 
-AR Path="/61DA8240/61DB6E79" Ref="#PWR0121"  Part="1" 
-AR Path="/61DBD0E2/61DB6E79" Ref="#PWR0101"  Part="1" 
-F 0 "#PWR0101" H 5050 2050 50  0001 C CNN
-F 1 "+5V" H 5065 2373 50  0000 C CNN
-F 2 "" H 5050 2200 50  0001 C CNN
-F 3 "" H 5050 2200 50  0001 C CNN
-	1    5050 2200
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4750 2200 5050 2200
 $Comp
@@ -3635,28 +3621,6 @@ GPIO13
 Text HLabel 4200 2450 0    50   Input ~ 0
 GPIO04
 $Comp
-L power:+3.3V #PWR0103
-U 1 1 620AE1C8
-P 3950 2950
-F 0 "#PWR0103" H 3950 2800 50  0001 C CNN
-F 1 "+3.3V" V 3965 3078 50  0000 L CNN
-F 2 "" H 3950 2950 50  0001 C CNN
-F 3 "" H 3950 2950 50  0001 C CNN
-	1    3950 2950
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:+3.3V #PWR0104
-U 1 1 620B0849
-P 4200 2150
-F 0 "#PWR0104" H 4200 2000 50  0001 C CNN
-F 1 "+3.3V" V 4215 2278 50  0000 L CNN
-F 2 "" H 4200 2150 50  0001 C CNN
-F 3 "" H 4200 2150 50  0001 C CNN
-	1    4200 2150
-	0    -1   -1   0   
-$EndComp
-$Comp
 L power:GND #PWR0105
 U 1 1 620B362D
 P 3600 4250
@@ -3681,8 +3645,6 @@ Connection ~ 3600 3350
 Wire Wire Line
 	3600 3350 3600 2550
 Connection ~ 3600 4050
-Wire Wire Line
-	4200 2950 3950 2950
 Wire Wire Line
 	4700 2350 5150 2350
 Wire Wire Line
@@ -3709,4 +3671,14 @@ Wire Wire Line
 Connection ~ 5150 3550
 Text HLabel 4200 3650 0    50   Input ~ 0
 GPIO06
+Text HLabel 5050 2200 2    50   Input ~ 0
+RASP_5V
+Text HLabel 4200 2150 0    50   Input ~ 0
+RASP_3V3
+Text HLabel 4200 2950 0    50   Input ~ 0
+RASP_3V3
+Text HLabel 4700 3250 2    50   Input ~ 0
+GPIO08
+Text HLabel 4700 3350 2    50   Input ~ 0
+GPIO07
 $EndSCHEMATC
