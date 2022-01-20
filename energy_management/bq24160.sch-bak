@@ -1411,8 +1411,8 @@ Wire Wire Line
 	2850 4800 2950 4800
 Text Notes 1250 3950 0    50   ~ 0
 BQ24160\nVext_dc -> 4.2 a 10 V - 2.5 A\nVusb ->4.2 a 6 V - 1.5 A
-Text Notes 7300 6000 0    50   ~ 0
-* Diodo retificador dissipará muita potência da fonte;\n\n* Outra opção seria um diodo em anti paralelo aos pinos de alimentação, entretanto o \ndiodo necessita aguentar uma corrente elevada para que não se danifique\nem caso de polarização reversa;\n\n* No circuito de proteção de Vext_dc e Vusb, o diodo parasita é polarizado,\nfazendo com que a tensão VGS seja -Vin + 0.7. Ela, portanto, coloca o mosfet\nna região de operação ohmica, se comportanto como um resistor de baixa \nresistência elétrica;\n 
+Text Notes 7300 5650 0    50   ~ 0
+* Diodo retificador dissipará muita potência da fonte;\n\n* Outra opção seria um diodo em anti paralelo aos pinos de alimentação, entretanto o \ndiodo necessita aguentar uma corrente elevada para que não se danifique\nem caso de polarização reversa;\n\n* No circuito de proteção de Vext_dc e Vusb, o diodo parasita é polarizado,\nfazendo com que a tensão VGS seja -Vin + 0.7. Ela, portanto, coloca o mosfet\nna região de operação ohmica, se comportanto como um resistor de baixa \nresistência elétrica;\n \n* LEDs para indicar se há reversão de polaridade?\n
 $Comp
 L Transistor_FET:Si2371EDS Q1
 U 1 1 61E50F86
@@ -1566,10 +1566,10 @@ Connection ~ 8800 2900
 Wire Wire Line
 	8800 2900 9300 2900
 $Comp
-L Connector:Conn_01x02_Male J?
+L Connector:Conn_01x02_Male J5
 U 1 1 61E68D8F
 P 7800 3600
-F 0 "J?" H 7908 3781 50  0000 C CNN
+F 0 "J5" H 7908 3781 50  0000 C CNN
 F 1 "Conn_01x02_Male" H 7900 3700 50  0000 C CNN
 F 2 "Connector:JWT_A3963_1x02_P3.96mm_Vertical" H 7800 3600 50  0001 C CNN
 F 3 "~" H 7800 3600 50  0001 C CNN
@@ -1577,10 +1577,10 @@ F 3 "~" H 7800 3600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0103
 U 1 1 61E68D95
 P 8100 3700
-F 0 "#PWR?" H 8100 3450 50  0001 C CNN
+F 0 "#PWR0103" H 8100 3450 50  0001 C CNN
 F 1 "GND" H 8105 3527 50  0000 C CNN
 F 2 "" H 8100 3700 50  0001 C CNN
 F 3 "" H 8100 3700 50  0001 C CNN
@@ -1590,10 +1590,10 @@ $EndComp
 Wire Wire Line
 	8000 3700 8100 3700
 $Comp
-L Transistor_FET:Si2371EDS Q?
+L Transistor_FET:Si2371EDS Q3
 U 1 1 61E68D9C
 P 8800 3700
-F 0 "Q?" V 9142 3700 50  0000 C CNN
+F 0 "Q3" V 9142 3700 50  0000 C CNN
 F 1 "Si2371EDS" V 9051 3700 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 9000 3625 50  0001 L CIN
 F 3 "http://www.vishay.com/docs/63924/si2371eds.pdf" H 8800 3700 50  0001 L CNN
@@ -1601,10 +1601,10 @@ F 3 "http://www.vishay.com/docs/63924/si2371eds.pdf" H 8800 3700 50  0001 L CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diode:1N47xxA D?
+L Diode:1N47xxA D6
 U 1 1 61E68DA2
 P 9300 3800
-F 0 "D?" V 9254 3879 50  0000 L CNN
+F 0 "D6" V 9254 3879 50  0000 L CNN
 F 1 "1N47xxA 5V" V 9345 3879 50  0000 L CNN
 F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 9300 3625 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85816/1n4728a.pdf" H 9300 3800 50  0001 C CNN
@@ -1618,10 +1618,10 @@ Wire Wire Line
 Wire Wire Line
 	9000 3600 9300 3600
 $Comp
-L Device:R R?
+L Device:R R9
 U 1 1 61E68DAB
 P 8550 4050
-F 0 "R?" H 8620 4096 50  0000 L CNN
+F 0 "R9" H 8620 4096 50  0000 L CNN
 F 1 "1K" H 8620 4005 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 8480 4050 50  0001 C CNN
 F 3 "~" H 8550 4050 50  0001 C CNN
@@ -1633,10 +1633,10 @@ Wire Wire Line
 Wire Wire Line
 	8300 4050 8400 4050
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0104
 U 1 1 61E68DB3
 P 8300 4050
-F 0 "#PWR?" H 8300 3800 50  0001 C CNN
+F 0 "#PWR0104" H 8300 3800 50  0001 C CNN
 F 1 "GND" H 8305 3877 50  0000 C CNN
 F 2 "" H 8300 4050 50  0001 C CNN
 F 3 "" H 8300 4050 50  0001 C CNN

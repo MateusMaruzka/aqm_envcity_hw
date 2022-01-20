@@ -156,7 +156,7 @@ F 10 "CONN SMA JACK R/A 50 OHM PCB" H 6800 4700 60  0001 L CNN "Description"
 F 11 "TE Connectivity AMP Connectors" H 6800 4800 60  0001 L CNN "Manufacturer"
 F 12 "Active" H 6800 4900 60  0001 L CNN "Status"
 	1    6600 3700
-	-1   0    0    1   
+	0    1    -1   0   
 $EndComp
 $Comp
 L power:GND #PWR0117
