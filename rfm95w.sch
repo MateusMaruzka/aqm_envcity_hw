@@ -19,7 +19,7 @@ U 1 1 61DA8ABC
 P 5250 4000
 F 0 "U3" H 5250 4681 50  0000 C CNN
 F 1 "RFM95W-915S2" H 5250 4590 50  0000 C CNN
-F 2 "RF_Module:HOPERF_RFM9XW_THT" H 1950 5650 50  0001 C CNN
+F 2 "RF_Module:HOPERF_RFM9XW_SMD" H 1950 5650 50  0001 C CNN
 F 3 "https://www.hoperf.com/data/upload/portal/20181127/5bfcbea20e9ef.pdf" H 1950 5650 50  0001 C CNN
 	1    5250 4000
 	1    0    0    -1  
@@ -156,7 +156,7 @@ F 10 "CONN SMA JACK R/A 50 OHM PCB" H 6800 4700 60  0001 L CNN "Description"
 F 11 "TE Connectivity AMP Connectors" H 6800 4800 60  0001 L CNN "Manufacturer"
 F 12 "Active" H 6800 4900 60  0001 L CNN "Status"
 	1    6600 3700
-	-1   0    0    1   
+	0    1    -1   0   
 $EndComp
 $Comp
 L power:GND #PWR0117
