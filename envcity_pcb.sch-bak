@@ -607,6 +607,8 @@ F 3 "" H 7050 5250 50  0001 C CNN
 	1    7050 5250
 	0    1    1    0   
 $EndComp
+Text GLabel 7050 5400 2    50   Input ~ 0
+RASP_3V3
 Wire Bus Line
 	7150 4350 7150 4850
 Wire Bus Line
@@ -619,6 +621,4 @@ Wire Bus Line
 	1300 4400 1300 5550
 Wire Bus Line
 	7000 900  7000 2450
-Text GLabel 7050 5400 2    50   Input ~ 0
-RASP_3V3
 $EndSCHEMATC
