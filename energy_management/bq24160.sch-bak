@@ -1434,7 +1434,7 @@ U 1 1 61E69714
 P 7800 2450
 F 0 "J4" H 7908 2631 50  0000 C CNN
 F 1 "Conn_01x02_Male" H 7900 2550 50  0000 C CNN
-F 2 "Connector:JWT_A3963_1x02_P3.96mm_Vertical" H 7800 2450 50  0001 C CNN
+F 2 "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type094_RT03502HBLU_1x02_P5.00mm_Horizontal" H 7800 2450 50  0001 C CNN
 F 3 "~" H 7800 2450 50  0001 C CNN
 	1    7800 2450
 	1    0    0    -1  
@@ -1534,7 +1534,7 @@ U 1 1 61E68D8F
 P 7800 3600
 F 0 "J5" H 7908 3781 50  0000 C CNN
 F 1 "Conn_01x02_Male" H 7900 3700 50  0000 C CNN
-F 2 "Connector:JWT_A3963_1x02_P3.96mm_Vertical" H 7800 3600 50  0001 C CNN
+F 2 "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type094_RT03502HBLU_1x02_P5.00mm_Horizontal" H 7800 3600 50  0001 C CNN
 F 3 "~" H 7800 3600 50  0001 C CNN
 	1    7800 3600
 	1    0    0    -1  
@@ -1647,7 +1647,7 @@ U 1 1 61D3544D
 P 7800 1350
 F 0 "J3" H 7908 1531 50  0000 C CNN
 F 1 "Conn_01x02_Male" H 7900 1450 50  0000 C CNN
-F 2 "Connector:JWT_A3963_1x02_P3.96mm_Vertical" H 7800 1350 50  0001 C CNN
+F 2 "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type094_RT03502HBLU_1x02_P5.00mm_Horizontal" H 7800 1350 50  0001 C CNN
 F 3 "~" H 7800 1350 50  0001 C CNN
 	1    7800 1350
 	1    0    0    -1  
