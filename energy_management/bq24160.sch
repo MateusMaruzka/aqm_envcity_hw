@@ -1355,7 +1355,7 @@ U 1 1 61DB9D1C
 P 2450 5500
 F 0 "U6" H 2450 6467 50  0000 C CNN
 F 1 "BQ24160RGET" H 2450 6376 50  0000 C CNN
-F 2 "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm" H 2350 6500 50  0001 C CNN
+F 2 "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm_ThermalVias" H 2350 6500 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/bq25895.pdf" H 2250 6300 50  0001 C CNN
 	1    2450 5500
 	1    0    0    -1  
@@ -1529,93 +1529,27 @@ Connection ~ 8800 2900
 Wire Wire Line
 	8800 2900 9300 2900
 $Comp
-L Connector:Conn_01x02_Male J5
-U 1 1 61E68D8F
-P 7800 3600
-F 0 "J5" H 7908 3781 50  0000 C CNN
-F 1 "Conn_01x02_Male" H 7900 3700 50  0000 C CNN
-F 2 "digikey-footprints:Term_Block_1x2_P5mm" H 7800 3600 50  0001 C CNN
-F 3 "~" H 7800 3600 50  0001 C CNN
-	1    7800 3600
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0103
-U 1 1 61E68D95
-P 8100 3700
-F 0 "#PWR0103" H 8100 3450 50  0001 C CNN
-F 1 "GND" H 8105 3527 50  0000 C CNN
-F 2 "" H 8100 3700 50  0001 C CNN
-F 3 "" H 8100 3700 50  0001 C CNN
-	1    8100 3700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8000 3700 8100 3700
-$Comp
-L Transistor_FET:Si2371EDS Q3
-U 1 1 61E68D9C
-P 8800 3700
-F 0 "Q3" V 9142 3700 50  0000 C CNN
-F 1 "Si2371EDS" V 9051 3700 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 9000 3625 50  0001 L CIN
-F 3 "http://www.vishay.com/docs/63924/si2371eds.pdf" H 8800 3700 50  0001 L CNN
-	1    8800 3700
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Diode:1N47xxA D6
-U 1 1 61E68DA2
-P 9300 3800
-F 0 "D6" V 9254 3879 50  0000 L CNN
-F 1 "1N47xxA 5V" V 9345 3879 50  0000 L CNN
-F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 9300 3625 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85816/1n4728a.pdf" H 9300 3800 50  0001 C CNN
-	1    9300 3800
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	8000 3600 8600 3600
-Wire Wire Line
-	9300 3600 9300 3650
-Wire Wire Line
-	9000 3600 9300 3600
-$Comp
 L Device:R R9
 U 1 1 61E68DAB
-P 8550 4050
-F 0 "R9" H 8620 4096 50  0000 L CNN
-F 1 "1K" H 8620 4005 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 8480 4050 50  0001 C CNN
-F 3 "~" H 8550 4050 50  0001 C CNN
-	1    8550 4050
-	0    1    1    0   
+P 8700 3900
+F 0 "R9" H 8770 3946 50  0000 L CNN
+F 1 "1K" H 8770 3855 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 8630 3900 50  0001 C CNN
+F 3 "~" H 8700 3900 50  0001 C CNN
+	1    8700 3900
+	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	9300 3950 9300 4050
-Wire Wire Line
-	8300 4050 8400 4050
 $Comp
 L power:GND #PWR0104
 U 1 1 61E68DB3
-P 8300 4050
-F 0 "#PWR0104" H 8300 3800 50  0001 C CNN
-F 1 "GND" H 8305 3877 50  0000 C CNN
-F 2 "" H 8300 4050 50  0001 C CNN
-F 3 "" H 8300 4050 50  0001 C CNN
-	1    8300 4050
-	1    0    0    -1  
+P 8850 4100
+F 0 "#PWR0104" H 8850 3850 50  0001 C CNN
+F 1 "GND" H 8855 3927 50  0000 C CNN
+F 2 "" H 8850 4100 50  0001 C CNN
+F 3 "" H 8850 4100 50  0001 C CNN
+	1    8850 4100
+	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	9300 3600 9500 3600
-Connection ~ 9300 3600
-Wire Wire Line
-	8700 4050 8800 4050
-Wire Wire Line
-	8800 3900 8800 4050
-Connection ~ 8800 4050
-Wire Wire Line
-	8800 4050 9300 4050
 Wire Notes Line
 	7250 4600 10700 4600
 Wire Notes Line
@@ -1624,7 +1558,7 @@ Wire Notes Line
 	10700 800  10700 4600
 Wire Notes Line
 	7250 800  7250 4600
-Text Label 9500 3600 0    50   ~ 0
+Text Label 8550 3250 0    50   ~ 0
 VBAT
 Text GLabel 5050 1150 0    50   Input ~ 0
 RASP_3V3
@@ -1654,4 +1588,61 @@ F 3 "~" H 7800 1350 50  0001 C CNN
 $EndComp
 Text Label 9500 1350 0    50   ~ 0
 Vext_dc
+$Comp
+L Transistor_FET:DMG2302U Q?
+U 1 1 629606E7
+P 8350 4000
+F 0 "Q?" V 8599 4000 50  0000 C CNN
+F 1 "DMG2302U" V 8690 4000 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 8550 3925 50  0001 L CIN
+F 3 "http://www.diodes.com/assets/Datasheets/DMG2302U.pdf" H 8350 4000 50  0001 L CNN
+	1    8350 4000
+	0    -1   1    0   
+$EndComp
+$Comp
+L Diode:1N47xxA D6
+U 1 1 61E68DA2
+P 8700 3550
+F 0 "D6" V 8600 3650 50  0000 L CNN
+F 1 "1N47xxA 5V" V 8700 3650 50  0000 L CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 8700 3375 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85816/1n4728a.pdf" H 8700 3550 50  0001 C CNN
+	1    8700 3550
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male J?
+U 1 1 6297A6DF
+P 7800 3450
+F 0 "J?" H 7908 3731 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 7908 3640 50  0000 C CNN
+F 2 "" H 7800 3450 50  0001 C CNN
+F 3 "~" H 7800 3450 50  0001 C CNN
+	1    7800 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8000 3350 8350 3350
+Connection ~ 8350 3350
+Wire Wire Line
+	8000 3550 8100 3550
+Wire Wire Line
+	8700 3400 8700 3350
+Wire Wire Line
+	8350 3350 8700 3350
+Wire Wire Line
+	8700 3700 8700 3750
+Wire Wire Line
+	8700 4050 8700 4100
+Wire Wire Line
+	8700 4100 8850 4100
+Wire Wire Line
+	8550 4100 8700 4100
+Connection ~ 8700 4100
+Wire Wire Line
+	8350 3350 8350 3800
+Wire Wire Line
+	8100 4100 8150 4100
+Wire Wire Line
+	8100 3550 8100 4100
 $EndSCHEMATC
