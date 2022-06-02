@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>C:\Users\maruzka\Documents\Kicad\envcity_multi_pcb\envcity_pcb.sch</source>
-    <date>27/01/2022 14:14:02</date>
+    <date>04/04/2022 16:55:31</date>
     <tool>Eeschema (5.1.5)-3</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -400,7 +400,7 @@
     </comp>
     <comp ref="J4">
       <value>Conn_01x02_Male</value>
-      <footprint>Connector:JWT_A3963_1x02_P3.96mm_Vertical</footprint>
+      <footprint>digikey-footprints:Term_Block_1x2_P5mm</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/BQ24160/" tstamps="/61E11B4A/"/>
@@ -432,7 +432,7 @@
     </comp>
     <comp ref="J5">
       <value>Conn_01x02_Male</value>
-      <footprint>Connector:JWT_A3963_1x02_P3.96mm_Vertical</footprint>
+      <footprint>digikey-footprints:Term_Block_1x2_P5mm</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/BQ24160/" tstamps="/61E11B4A/"/>
@@ -464,7 +464,7 @@
     </comp>
     <comp ref="J3">
       <value>Conn_01x02_Male</value>
-      <footprint>Connector:JWT_A3963_1x02_P3.96mm_Vertical</footprint>
+      <footprint>digikey-footprints:Term_Block_1x2_P5mm</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/BQ24160/" tstamps="/61E11B4A/"/>
