@@ -1,0 +1,37 @@
+* C:\Users\maruzka\Documents\Kicad\envcity_aqm_v2\simulacoes\power_path\powerpath_heltec_adaptado.asc
+V1 Vin2 0 5 Rser=0.5
+M1 Vbat N009 Vout2 Vout2 FDR840P
+R1 Vsolar N009 10k
+V2 Vbat 0 3
+V3 Vin1 0 5 Rser=0
+M2 N001 N006 Vsolar Vsolar Si4403DY
+Q1 N003 N003 N001 0 2N2907
+Q2 N006 N003 Vsolar 0 2N2907
+R4 N006 0 47k
+R5 N003 0 10k
+M3 N002 N007 Vsolar Vsolar Si4403DY
+Q3 N004 N004 N002 0 2N2907
+Q4 N007 N004 Vsolar 0 2N2907
+R6 N007 0 47k
+R7 N004 0 10k
+M4 Vsolar N008 Vout2 Vout2 Si4403DY
+Q5 N005 N005 Vsolar 0 2N2907
+Q6 N008 N005 Vout2 0 2N2907
+R8 N008 0 47k
+R9 N005 0 10k
+I1 Vout2 0 500m
+R2 0 Vsolar 10k
+.model NPN NPN
+.model PNP PNP
+.lib C:\Users\maruzka\Documents\LTspiceXVII\lib\cmp\standard.bjt
+.model NMOS NMOS
+.model PMOS PMOS
+.lib C:\Users\maruzka\Documents\LTspiceXVII\lib\cmp\standard.mos
+.meas Pin AVG V(Vin1)*-I(V3)
+.meas Pout AVG V(Vout2)*i
+.meas eff param Pout/Pin
+;.step param i 10m 1 25m
+* .tran 10m\n.model SW sw()
+.tran 50m
+.backanno
+.end

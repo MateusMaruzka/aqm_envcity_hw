@@ -1,0 +1,19 @@
+* C:\Users\maruzka\Documents\Kicad\envcity_aqm_v2\simulacoes\powerpath_heltec.asc
+V1 Vusb 0 5 Rser=0
+M1 Vbat N002 Vout2 Vout2 FDR840P
+R1 N001 N002 1k
+D1 N001 Vout2 1N5819
+V3 Vbat 0 3
+S2 Vusb Vusb_swo Vusb 0 SW
+I1 Vout2 0 500m
+.model D D
+.lib C:\Users\maruzka\Documents\LTspiceXVII\lib\cmp\standard.dio
+.model NMOS NMOS
+.model PMOS PMOS
+.lib C:\Users\maruzka\Documents\LTspiceXVII\lib\cmp\standard.mos
+* Vdiodo
+* .tran 0.1\n.model sw sw()\n.step param i2 100m 1 100m\n.meas Pin2 AVG V(Vusb)*-I(V1)\n.meas Pbat AVG -V(Vbat)*I(V3)\n.meas Pout2 AVG V(Vout2)*I(I1)\n.meas Eff2 param Pout2/Pbat
+.op
+.model SW sw()
+.backanno
+.end

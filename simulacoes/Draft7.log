@@ -1,0 +1,21 @@
+Circuit: * C:\Users\maruzka\Documents\Kicad\envcity_aqm_v2\simulacoes\Draft7.asc
+
+Direct Newton iteration for .op point succeeded.
+
+Date: Tue Jan 17 19:38:18 2023
+Total elapsed time: 0.103 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 2086
+traniter = 2082
+tranpoints = 1042
+accept = 1042
+rejected = 0
+matrix size = 4
+fillins = 0
+solver = Normal
+Matrix Compiler1: 118 bytes object code size  0.1/0.1/[0.1]
+Matrix Compiler2: off  [0.1]/0.1/0.1
+
