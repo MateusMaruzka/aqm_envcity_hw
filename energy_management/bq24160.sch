@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 7
+Sheet 5 7
 Title ""
 Date ""
 Rev ""
@@ -73,10 +73,10 @@ Wire Wire Line
 Wire Wire Line
 	1900 6150 1900 6250
 $Comp
-L power:GND #PWR0127
+L power:GND #PWR022
 U 1 1 61D3545C
 P 1900 6550
-F 0 "#PWR0127" H 1900 6300 50  0001 C CNN
+F 0 "#PWR022" H 1900 6300 50  0001 C CNN
 F 1 "GND" H 1905 6377 50  0000 C CNN
 F 2 "" H 1900 6550 50  0001 C CNN
 F 3 "" H 1900 6550 50  0001 C CNN
@@ -84,10 +84,10 @@ F 3 "" H 1900 6550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0128
+L power:GND #PWR026
 U 1 1 61D35463
 P 3400 4900
-F 0 "#PWR0128" H 3400 4650 50  0001 C CNN
+F 0 "#PWR026" H 3400 4650 50  0001 C CNN
 F 1 "GND" V 3405 4772 50  0000 R CNN
 F 2 "" H 3400 4900 50  0001 C CNN
 F 3 "" H 3400 4900 50  0001 C CNN
@@ -101,10 +101,10 @@ Wire Wire Line
 Text Label 1900 6050 2    50   ~ 0
 Vext_dc
 $Comp
-L power:GND #PWR0129
+L power:GND #PWR030
 U 1 1 61D3546C
 P 5050 3000
-F 0 "#PWR0129" H 5050 2750 50  0001 C CNN
+F 0 "#PWR030" H 5050 2750 50  0001 C CNN
 F 1 "GND" H 5055 2827 50  0000 C CNN
 F 2 "" H 5050 3000 50  0001 C CNN
 F 3 "" H 5050 3000 50  0001 C CNN
@@ -152,10 +152,10 @@ Wire Wire Line
 Wire Wire Line
 	5500 2700 5500 2600
 $Comp
-L power:GND #PWR0130
+L power:GND #PWR031
 U 1 1 61D35487
 P 5500 3000
-F 0 "#PWR0130" H 5500 2750 50  0001 C CNN
+F 0 "#PWR031" H 5500 2750 50  0001 C CNN
 F 1 "GND" H 5505 2827 50  0000 C CNN
 F 2 "" H 5500 3000 50  0001 C CNN
 F 3 "" H 5500 3000 50  0001 C CNN
@@ -167,10 +167,10 @@ Vusb
 Text Label 4550 2600 0    50   ~ 0
 Vusb
 $Comp
-L power:GND #PWR0131
+L power:GND #PWR029
 U 1 1 61D35490
 P 4550 3000
-F 0 "#PWR0131" H 4550 2750 50  0001 C CNN
+F 0 "#PWR029" H 4550 2750 50  0001 C CNN
 F 1 "GND" H 4555 2827 50  0000 C CNN
 F 2 "" H 4550 3000 50  0001 C CNN
 F 3 "" H 4550 3000 50  0001 C CNN
@@ -204,10 +204,10 @@ Wire Wire Line
 Wire Wire Line
 	2850 5700 2900 5700
 $Comp
-L power:GND #PWR0132
+L power:GND #PWR025
 U 1 1 61D354A4
 P 3050 5700
-F 0 "#PWR0132" H 3050 5450 50  0001 C CNN
+F 0 "#PWR025" H 3050 5450 50  0001 C CNN
 F 1 "GND" V 3055 5572 50  0000 R CNN
 F 2 "" H 3050 5700 50  0001 C CNN
 F 3 "" H 3050 5700 50  0001 C CNN
@@ -1165,10 +1165,10 @@ SW
 Wire Wire Line
 	4400 5700 4400 5800
 $Comp
-L power:GND #PWR0134
+L power:GND #PWR028
 U 1 1 61D354FB
 P 4400 5800
-F 0 "#PWR0134" H 4400 5550 50  0001 C CNN
+F 0 "#PWR028" H 4400 5550 50  0001 C CNN
 F 1 "GND" H 4405 5627 50  0000 C CNN
 F 2 "" H 4400 5800 50  0001 C CNN
 F 3 "" H 4400 5800 50  0001 C CNN
@@ -1257,10 +1257,10 @@ Connection ~ 3700 6450
 Wire Wire Line
 	3700 6450 3700 6500
 $Comp
-L power:GND #PWR0135
+L power:GND #PWR027
 U 1 1 61D3552D
 P 3700 7050
-F 0 "#PWR0135" H 3700 6800 50  0001 C CNN
+F 0 "#PWR027" H 3700 6800 50  0001 C CNN
 F 1 "GND" H 3705 6877 50  0000 C CNN
 F 2 "" H 3700 7050 50  0001 C CNN
 F 3 "" H 3700 7050 50  0001 C CNN
@@ -1278,10 +1278,10 @@ Wire Wire Line
 Text Label 2450 6500 2    50   ~ 0
 VDRV
 $Comp
-L power:GND #PWR0136
+L power:GND #PWR024
 U 1 1 61D35539
 P 2950 4750
-F 0 "#PWR0136" H 2950 4500 50  0001 C CNN
+F 0 "#PWR024" H 2950 4500 50  0001 C CNN
 F 1 "GND" H 2955 4577 50  0000 C CNN
 F 2 "" H 2950 4750 50  0001 C CNN
 F 3 "" H 2950 4750 50  0001 C CNN
@@ -1302,10 +1302,10 @@ Wire Wire Line
 Wire Wire Line
 	2000 5450 2050 5450
 $Comp
-L power:GND #PWR0137
+L power:GND #PWR023
 U 1 1 61D3554D
 P 2000 5400
-F 0 "#PWR0137" H 2000 5150 50  0001 C CNN
+F 0 "#PWR023" H 2000 5150 50  0001 C CNN
 F 1 "GND" V 2005 5272 50  0000 R CNN
 F 2 "" H 2000 5400 50  0001 C CNN
 F 3 "" H 2000 5400 50  0001 C CNN
@@ -1350,10 +1350,10 @@ BQ_SCL
 Text HLabel 1950 5200 0    50   Input ~ 0
 BQ_SDA
 $Comp
-L bq24160-cache:Battery_Management_BQ24160RGET U6
+L bq24160-cache:Battery_Management_BQ24160RGET U7
 U 1 1 61DB9D1C
 P 2450 5500
-F 0 "U6" H 2450 6467 50  0000 C CNN
+F 0 "U7" H 2450 6467 50  0000 C CNN
 F 1 "BQ24160RGET" H 2450 6376 50  0000 C CNN
 F 2 "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm_ThermalVias" H 2350 6500 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/bq25895.pdf" H 2250 6300 50  0001 C CNN
@@ -1377,10 +1377,10 @@ BQ24160\nVext_dc -> 4.2 a 10 V - 2.5 A\nVusb ->4.2 a 6 V - 1.5 A
 Text Notes 7300 5650 0    50   ~ 0
 * Diodo retificador dissipará muita potência da fonte;\n\n* Outra opção seria um diodo em anti paralelo aos pinos de alimentação, entretanto o \ndiodo necessita aguentar uma corrente elevada para que não se danifique\nem caso de polarização reversa;\n\n* No circuito de proteção de Vext_dc e Vusb, o diodo parasita é polarizado,\nfazendo com que a tensão VGS seja -Vin + 0.7. Ela, portanto, coloca o mosfet\nna região de operação ohmica, se comportanto como um resistor de baixa \nresistência elétrica;\n \n* LEDs para indicar se há reversão de polaridade?\n
 $Comp
-L Transistor_FET:Si2371EDS Q1
+L Transistor_FET:Si2371EDS Q2
 U 1 1 61E50F86
 P 8800 1450
-F 0 "Q1" V 9142 1450 50  0000 C CNN
+F 0 "Q2" V 9142 1450 50  0000 C CNN
 F 1 "Si2371EDS" V 9051 1450 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 9000 1375 50  0001 L CIN
 F 3 "http://www.vishay.com/docs/63924/si2371eds.pdf" H 8800 1450 50  0001 L CNN
@@ -1388,10 +1388,10 @@ F 3 "http://www.vishay.com/docs/63924/si2371eds.pdf" H 8800 1450 50  0001 L CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diode:1N47xxA D4
+L Diode:1N47xxA D5
 U 1 1 61E5B171
 P 9300 1550
-F 0 "D4" V 9254 1629 50  0000 L CNN
+F 0 "D5" V 9254 1629 50  0000 L CNN
 F 1 "1N47xxA 17V" V 9345 1629 50  0000 L CNN
 F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 9300 1375 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85816/1n4728a.pdf" H 9300 1550 50  0001 C CNN
@@ -1418,10 +1418,10 @@ $EndComp
 Wire Wire Line
 	8400 1750 8500 1750
 $Comp
-L power:GND #PWR03
+L power:GND #PWR035
 U 1 1 61E65947
 P 8400 1750
-F 0 "#PWR03" H 8400 1500 50  0001 C CNN
+F 0 "#PWR035" H 8400 1500 50  0001 C CNN
 F 1 "GND" H 8405 1577 50  0000 C CNN
 F 2 "" H 8400 1750 50  0001 C CNN
 F 3 "" H 8400 1750 50  0001 C CNN
@@ -1429,10 +1429,10 @@ F 3 "" H 8400 1750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x02_Male J4
+L Connector:Conn_01x02_Male J3
 U 1 1 61E69714
 P 7800 2450
-F 0 "J4" H 7908 2631 50  0000 C CNN
+F 0 "J3" H 7908 2631 50  0000 C CNN
 F 1 "Conn_01x02_Male" H 7900 2550 50  0000 C CNN
 F 2 "digikey-footprints:Term_Block_1x2_P5mm" H 7800 2450 50  0001 C CNN
 F 3 "~" H 7800 2450 50  0001 C CNN
@@ -1440,10 +1440,10 @@ F 3 "~" H 7800 2450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR01
+L power:GND #PWR033
 U 1 1 61E6971A
 P 8100 2550
-F 0 "#PWR01" H 8100 2300 50  0001 C CNN
+F 0 "#PWR033" H 8100 2300 50  0001 C CNN
 F 1 "GND" H 8105 2377 50  0000 C CNN
 F 2 "" H 8100 2550 50  0001 C CNN
 F 3 "" H 8100 2550 50  0001 C CNN
@@ -1453,10 +1453,10 @@ $EndComp
 Wire Wire Line
 	8000 2550 8100 2550
 $Comp
-L Transistor_FET:Si2371EDS Q2
+L Transistor_FET:Si2371EDS Q3
 U 1 1 61E69722
 P 8800 2550
-F 0 "Q2" V 9142 2550 50  0000 C CNN
+F 0 "Q3" V 9142 2550 50  0000 C CNN
 F 1 "Si2371EDS" V 9051 2550 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 9000 2475 50  0001 L CIN
 F 3 "http://www.vishay.com/docs/63924/si2371eds.pdf" H 8800 2550 50  0001 L CNN
@@ -1464,10 +1464,10 @@ F 3 "http://www.vishay.com/docs/63924/si2371eds.pdf" H 8800 2550 50  0001 L CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diode:1N47xxA D5
+L Diode:1N47xxA D6
 U 1 1 61E69728
 P 9300 2650
-F 0 "D5" V 9254 2729 50  0000 L CNN
+F 0 "D6" V 9254 2729 50  0000 L CNN
 F 1 "1N47xxA 9V" V 9345 2729 50  0000 L CNN
 F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 9300 2475 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85816/1n4728a.pdf" H 9300 2650 50  0001 C CNN
@@ -1496,10 +1496,10 @@ Wire Wire Line
 Wire Wire Line
 	8300 2900 8400 2900
 $Comp
-L power:GND #PWR02
+L power:GND #PWR034
 U 1 1 61E6973B
 P 8300 2900
-F 0 "#PWR02" H 8300 2650 50  0001 C CNN
+F 0 "#PWR034" H 8300 2650 50  0001 C CNN
 F 1 "GND" H 8305 2727 50  0000 C CNN
 F 2 "" H 8300 2900 50  0001 C CNN
 F 3 "" H 8300 2900 50  0001 C CNN
@@ -1540,10 +1540,10 @@ F 3 "~" H 8700 3900 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR0104
+L power:GND #PWR036
 U 1 1 61E68DB3
 P 8850 4100
-F 0 "#PWR0104" H 8850 3850 50  0001 C CNN
+F 0 "#PWR036" H 8850 3850 50  0001 C CNN
 F 1 "GND" H 8855 3927 50  0000 C CNN
 F 2 "" H 8850 4100 50  0001 C CNN
 F 3 "" H 8850 4100 50  0001 C CNN
@@ -1565,10 +1565,10 @@ RASP_3V3
 Wire Wire Line
 	8000 1450 8100 1450
 $Comp
-L power:GND #PWR0126
+L power:GND #PWR032
 U 1 1 61D35453
 P 8100 1450
-F 0 "#PWR0126" H 8100 1200 50  0001 C CNN
+F 0 "#PWR032" H 8100 1200 50  0001 C CNN
 F 1 "GND" H 8105 1277 50  0000 C CNN
 F 2 "" H 8100 1450 50  0001 C CNN
 F 3 "" H 8100 1450 50  0001 C CNN
@@ -1576,10 +1576,10 @@ F 3 "" H 8100 1450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x02_Male J3
+L Connector:Conn_01x02_Male J2
 U 1 1 61D3544D
 P 7800 1350
-F 0 "J3" H 7908 1531 50  0000 C CNN
+F 0 "J2" H 7908 1531 50  0000 C CNN
 F 1 "Conn_01x02_Male" H 7900 1450 50  0000 C CNN
 F 2 "digikey-footprints:Term_Block_1x2_P5mm" H 7800 1350 50  0001 C CNN
 F 3 "~" H 7800 1350 50  0001 C CNN
@@ -1589,10 +1589,10 @@ $EndComp
 Text Label 9500 1350 0    50   ~ 0
 Vext_dc
 $Comp
-L Transistor_FET:DMG2302U Q?
+L Transistor_FET:DMG2302U Q1
 U 1 1 629606E7
 P 8350 4000
-F 0 "Q?" V 8599 4000 50  0000 C CNN
+F 0 "Q1" V 8599 4000 50  0000 C CNN
 F 1 "DMG2302U" V 8690 4000 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 8550 3925 50  0001 L CIN
 F 3 "http://www.diodes.com/assets/Datasheets/DMG2302U.pdf" H 8350 4000 50  0001 L CNN
@@ -1600,10 +1600,10 @@ F 3 "http://www.diodes.com/assets/Datasheets/DMG2302U.pdf" H 8350 4000 50  0001 
 	0    -1   1    0   
 $EndComp
 $Comp
-L Diode:1N47xxA D6
+L Diode:1N47xxA D4
 U 1 1 61E68DA2
 P 8700 3550
-F 0 "D6" V 8600 3650 50  0000 L CNN
+F 0 "D4" V 8600 3650 50  0000 L CNN
 F 1 "1N47xxA 5V" V 8700 3650 50  0000 L CNN
 F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 8700 3375 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85816/1n4728a.pdf" H 8700 3550 50  0001 C CNN
@@ -1611,10 +1611,10 @@ F 3 "https://www.vishay.com/docs/85816/1n4728a.pdf" H 8700 3550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Conn_01x03_Male J?
+L Connector:Conn_01x03_Male J4
 U 1 1 6297A6DF
 P 7800 3450
-F 0 "J?" H 7908 3731 50  0000 C CNN
+F 0 "J4" H 7908 3731 50  0000 C CNN
 F 1 "Conn_01x03_Male" H 7908 3640 50  0000 C CNN
 F 2 "" H 7800 3450 50  0001 C CNN
 F 3 "~" H 7800 3450 50  0001 C CNN

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 7
+Sheet 3 7
 Title ""
 Date ""
 Rev ""
@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L RF_Module:RFM95W-915S2 U3
+L RF_Module:RFM95W-915S2 U4
 U 1 1 61DA8ABC
 P 5250 4000
-F 0 "U3" H 5250 4681 50  0000 C CNN
+F 0 "U4" H 5250 4681 50  0000 C CNN
 F 1 "RFM95W-915S2" H 5250 4590 50  0000 C CNN
 F 2 "RF_Module:HOPERF_RFM9XW_SMD" H 1950 5650 50  0001 C CNN
 F 3 "https://www.hoperf.com/data/upload/portal/20181127/5bfcbea20e9ef.pdf" H 1950 5650 50  0001 C CNN
@@ -25,10 +25,10 @@ F 3 "https://www.hoperf.com/data/upload/portal/20181127/5bfcbea20e9ef.pdf" H 195
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0114
+L power:GND #PWR012
 U 1 1 61DA932B
 P 5250 4850
-F 0 "#PWR0114" H 5250 4600 50  0001 C CNN
+F 0 "#PWR012" H 5250 4600 50  0001 C CNN
 F 1 "GND" H 5255 4677 50  0000 C CNN
 F 2 "" H 5250 4850 50  0001 C CNN
 F 3 "" H 5250 4850 50  0001 C CNN
@@ -49,10 +49,10 @@ Connection ~ 5250 4750
 Wire Wire Line
 	5250 4850 5250 4750
 $Comp
-L power:+3.3V #PWR0115
+L power:+3.3V #PWR011
 U 1 1 61DA96FA
 P 5250 3200
-F 0 "#PWR0115" H 5250 3050 50  0001 C CNN
+F 0 "#PWR011" H 5250 3050 50  0001 C CNN
 F 1 "+3.3V" H 5265 3373 50  0000 C CNN
 F 2 "" H 5250 3200 50  0001 C CNN
 F 3 "" H 5250 3200 50  0001 C CNN
@@ -122,10 +122,10 @@ Connection ~ 5250 3250
 Wire Wire Line
 	5250 3250 5250 3500
 $Comp
-L power:GND #PWR0116
+L power:GND #PWR010
 U 1 1 61DAE92A
 P 4550 3500
-F 0 "#PWR0116" H 4550 3250 50  0001 C CNN
+F 0 "#PWR010" H 4550 3250 50  0001 C CNN
 F 1 "GND" V 4555 3372 50  0000 R CNN
 F 2 "" H 4550 3500 50  0001 C CNN
 F 3 "" H 4550 3500 50  0001 C CNN
@@ -139,10 +139,10 @@ Wire Wire Line
 Text Label 6000 3700 0    50   ~ 0
 ANT
 $Comp
-L dk_Coaxial-Connectors-RF:5-1814400-1 J2
+L dk_Coaxial-Connectors-RF:5-1814400-1 J1
 U 1 1 61E0F67C
 P 6600 3700
-F 0 "J2" H 6512 3576 50  0000 R CNN
+F 0 "J1" H 6512 3576 50  0000 R CNN
 F 1 "5-1814400-1" H 6512 3667 50  0000 R CNN
 F 2 "digikey-footprints:RF_SMA_RightAngle_5-1814400-1" H 6800 3900 60  0001 L CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1814400&DocType=Customer+Drawing&DocLang=English" H 6800 4000 60  0001 L CNN
@@ -159,10 +159,10 @@ F 12 "Active" H 6800 4900 60  0001 L CNN "Status"
 	0    1    -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0117
+L power:GND #PWR013
 U 1 1 61E1056F
 P 6600 3500
-F 0 "#PWR0117" H 6600 3250 50  0001 C CNN
+F 0 "#PWR013" H 6600 3250 50  0001 C CNN
 F 1 "GND" H 6605 3327 50  0000 C CNN
 F 2 "" H 6600 3500 50  0001 C CNN
 F 3 "" H 6600 3500 50  0001 C CNN
