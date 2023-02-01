@@ -454,8 +454,6 @@ Wire Wire Line
 Wire Wire Line
 	12650 1500 12650 1650
 Connection ~ 13300 1650
-Wire Wire Line
-	12650 1650 12950 1650
 Connection ~ 12650 1650
 Wire Wire Line
 	12650 1650 12650 1850
@@ -836,19 +834,6 @@ Wire Wire Line
 	8800 7500 8800 7750
 Wire Wire Line
 	8800 8050 8800 8300
-$Comp
-L Connector:TestPoint TP3
-U 1 1 6403558A
-P 12950 1500
-F 0 "TP3" H 13008 1618 50  0000 L CNN
-F 1 "TestPoint" H 13008 1527 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 13150 1500 50  0001 C CNN
-F 3 "~" H 13150 1500 50  0001 C CNN
-	1    12950 1500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	12950 1500 12950 1650
 Text Notes 9300 5200 0    50   ~ 0
 * The 50K resistor is a pull-down resistor that is used to ensure that the P-channel \nMOSFET operates in its linear region when both Vsolar and Vusb are disconnected.\n* A 10K resistor is used as a pull-down resistor to pull Vexternal down to near zero. Vexternal is used as a signal to enable the battery charger"
 $Comp
@@ -1103,28 +1088,6 @@ Wire Wire Line
 Connection ~ 18950 8000
 Wire Wire Line
 	18950 8150 18950 8000
-$Comp
-L Connector:TestPoint TP15
-U 1 1 6405B533
-P 16000 7050
-F 0 "TP15" H 15900 7200 50  0000 R CNN
-F 1 "TestPoint" H 15950 7300 50  0000 R CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 16200 7050 50  0001 C CNN
-F 3 "~" H 16200 7050 50  0001 C CNN
-	1    16000 7050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:TestPoint TP16
-U 1 1 64068536
-P 15100 7350
-F 0 "TP16" H 15200 7600 50  0000 R CNN
-F 1 "TestPoint" H 15300 7700 50  0000 R CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 15300 7350 50  0001 C CNN
-F 3 "~" H 15300 7350 50  0001 C CNN
-	1    15100 7350
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	17150 1750 16900 1750
 $Comp
@@ -1147,9 +1110,6 @@ Wire Wire Line
 	6050 12400 6050 12600
 Text GLabel 8850 1500 0    50   Input ~ 0
 Vusb_protected
-Connection ~ 12950 1650
-Wire Wire Line
-	12950 1650 13300 1650
 Text GLabel 13900 1400 2    50   Input ~ 0
 Vexternal
 Wire Wire Line
@@ -1375,8 +1335,6 @@ Wire Wire Line
 	9650 8100 9650 8200
 Text Notes 3500 4650 0    50   ~ 0
 Overvoltage and polarity protection - Battery
-Wire Wire Line
-	4800 5150 5000 5150
 $Comp
 L Transistor_FET:DMG2301L Q12
 U 1 1 63CB8A96
@@ -1420,18 +1378,6 @@ F 2 "Diode_SMD:D_SOD-323" H 4600 5350 50  0001 C CNN
 F 3 "~" H 4600 5350 50  0001 C CNN
 	1    4600 5350
 	0    1    1    0   
-$EndComp
-Connection ~ 4800 5150
-$Comp
-L Connector:TestPoint TP12
-U 1 1 63C426CB
-P 4800 5150
-F 0 "TP12" H 4850 5500 50  0000 L CNN
-F 1 "TestPoint" H 4800 5400 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 5000 5150 50  0001 C CNN
-F 3 "~" H 5000 5150 50  0001 C CNN
-	1    4800 5150
-	1    0    0    -1  
 $EndComp
 Text GLabel 5000 5150 2    50   Input ~ 0
 Vbat_protected
@@ -1762,8 +1708,6 @@ Wire Wire Line
 	4600 5200 4600 5150
 Connection ~ 4600 5150
 Wire Wire Line
-	4600 5150 4800 5150
-Wire Wire Line
 	4600 5500 4250 5500
 Connection ~ 4250 5500
 Wire Wire Line
@@ -1775,8 +1719,6 @@ Wire Wire Line
 	4250 5850 4250 5900
 Text Notes 3500 2750 0    50   ~ 0
 Overvoltage and polarity protection - Solar panel
-Wire Wire Line
-	4800 3250 5000 3250
 $Comp
 L Transistor_FET:DMG2301L Q9
 U 1 1 648FE7E2
@@ -1821,18 +1763,6 @@ F 3 "~" H 4600 3450 50  0001 C CNN
 	1    4600 3450
 	0    1    1    0   
 $EndComp
-Connection ~ 4800 3250
-$Comp
-L Connector:TestPoint TP10
-U 1 1 648FE7FB
-P 4800 3250
-F 0 "TP10" H 4850 3600 50  0000 L CNN
-F 1 "TestPoint" H 4800 3500 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 5000 3250 50  0001 C CNN
-F 3 "~" H 5000 3250 50  0001 C CNN
-	1    4800 3250
-	1    0    0    -1  
-$EndComp
 Text GLabel 5000 3250 2    50   Input ~ 0
 Vsolar_protected
 Wire Wire Line
@@ -1870,8 +1800,6 @@ Wire Wire Line
 Wire Wire Line
 	4600 3300 4600 3250
 Connection ~ 4600 3250
-Wire Wire Line
-	4600 3250 4800 3250
 Wire Wire Line
 	4600 3600 4250 3600
 Connection ~ 4250 3600
@@ -2229,8 +2157,6 @@ Wire Wire Line
 	21200 6550 21400 6550
 Wire Wire Line
 	21200 6650 21400 6650
-Wire Wire Line
-	21200 6750 21400 6750
 Wire Wire Line
 	21200 6850 21400 6850
 Wire Wire Line
@@ -2708,74 +2634,6 @@ F 3 "" H 4450 14200 50  0001 C CNN
 	1    4450 14200
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector:TestPoint TP6
-U 1 1 648EE75E
-P 16250 2000
-F 0 "TP6" H 16200 2200 50  0000 L CNN
-F 1 "TestPoint" H 16150 2200 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 16450 2000 50  0001 C CNN
-F 3 "~" H 16450 2000 50  0001 C CNN
-	1    16250 2000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:TestPoint TP7
-U 1 1 648EEFB7
-P 16400 2000
-F 0 "TP7" H 16350 2200 50  0000 L CNN
-F 1 "TestPoint" H 16350 2200 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 16600 2000 50  0001 C CNN
-F 3 "~" H 16600 2000 50  0001 C CNN
-	1    16400 2000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:TestPoint TP4
-U 1 1 648F18D7
-P 15950 2000
-F 0 "TP4" H 15900 2200 50  0000 L CNN
-F 1 "TestPoint" H 15850 2200 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 16150 2000 50  0001 C CNN
-F 3 "~" H 16150 2000 50  0001 C CNN
-	1    15950 2000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:TestPoint TP5
-U 1 1 648F18DD
-P 16100 2000
-F 0 "TP5" H 16050 2200 50  0000 L CNN
-F 1 "TestPoint" H 16000 2200 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 16300 2000 50  0001 C CNN
-F 3 "~" H 16300 2000 50  0001 C CNN
-	1    16100 2000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	15950 2000 15950 2100
-Wire Wire Line
-	16100 2000 16100 2100
-Wire Wire Line
-	16250 2000 16250 2100
-Wire Wire Line
-	16400 2000 16400 2100
-Entry Wire Line
-	16400 2100 16500 2200
-Entry Wire Line
-	16250 2100 16350 2200
-Entry Wire Line
-	16100 2100 16200 2200
-Entry Wire Line
-	15950 2100 16050 2200
-Text Label 16400 2050 1    50   ~ 0
-S3
-Text Label 16250 2050 1    50   ~ 0
-S2
-Text Label 16100 2050 1    50   ~ 0
-S1
-Text Label 15950 2050 1    50   ~ 0
-S0
 $Comp
 L power:+3V3 #PWR032
 U 1 1 64D6E083
@@ -3550,9 +3408,9 @@ Text Label 16450 6750 2    50   ~ 0
 LORA_MISO
 Text Label 21400 6950 0    50   ~ 0
 S0
-Text Label 21400 6750 0    50   ~ 0
+Text Label 21650 6750 0    50   ~ 0
 FAN1
-Text Label 21400 6850 0    50   ~ 0
+Text Label 21400 6750 0    50   ~ 0
 FAN2
 $Comp
 L Connector:Conn_01x04_Male J11
@@ -3705,19 +3563,11 @@ RTC_SCL
 Text Label 3550 11550 0    50   ~ 0
 RTC_SDA
 Wire Wire Line
-	15400 7150 16000 7150
-Wire Wire Line
 	15100 7350 16650 7350
 Text Label 15900 7150 3    50   ~ 0
 RTC_SCL
 Text Label 16000 7350 3    50   ~ 0
 RTC_SDA
-Connection ~ 15100 7350
-Connection ~ 16000 7150
-Wire Wire Line
-	16000 7150 16650 7150
-Wire Wire Line
-	16000 7050 16000 7150
 Wire Wire Line
 	4100 1200 4600 1200
 $Comp
@@ -3806,12 +3656,63 @@ Wire Wire Line
 	7750 7300 8800 7300
 Text Label 11600 9950 0    50   ~ 0
 I7
-Wire Bus Line
-	16050 2200 16850 2200
+Wire Wire Line
+	13500 2450 14200 2450
+Wire Wire Line
+	15400 7150 16650 7150
+Wire Wire Line
+	4600 3250 5000 3250
+Wire Wire Line
+	4600 5150 5000 5150
+Wire Wire Line
+	12650 1650 13300 1650
+$Comp
+L Sensor:DHT11 U?
+U 1 1 6415422B
+P 15000 13050
+F 0 "U?" H 14750 13100 50  0000 R CNN
+F 1 "DHT11" H 14750 13050 50  0000 R CNN
+F 2 "Sensor:Aosong_DHT11_5.5x12.0_P2.54mm" H 15000 12650 50  0001 C CNN
+F 3 "http://akizukidenshi.com/download/ds/aosong/DHT11.pdf" H 15150 13300 50  0001 C CNN
+	1    15000 13050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 64154C07
+P 15000 13450
+F 0 "#PWR?" H 15000 13200 50  0001 C CNN
+F 1 "GND" H 15050 13250 50  0000 C CNN
+F 2 "" H 15000 13450 50  0001 C CNN
+F 3 "" H 15000 13450 50  0001 C CNN
+	1    15000 13450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15000 13350 15000 13450
+$Comp
+L power:+5V #PWR?
+U 1 1 641922FE
+P 15000 12650
+F 0 "#PWR?" H 15000 12500 50  0001 C CNN
+F 1 "+5V" H 15050 12850 50  0000 C CNN
+F 2 "" H 15000 12650 50  0001 C CNN
+F 3 "" H 15000 12650 50  0001 C CNN
+	1    15000 12650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15000 12650 15000 12750
+Text Label 15450 13050 0    50   ~ 0
+DHT11
+Wire Wire Line
+	15450 13050 15300 13050
+Wire Wire Line
+	21200 6750 21650 6750
 Wire Bus Line
 	15850 2650 16850 2650
 Wire Bus Line
 	16850 2200 16850 2650
-Wire Wire Line
-	13500 2450 14200 2450
+Text Label 21400 6850 0    50   ~ 0
+DHT11
 $EndSCHEMATC

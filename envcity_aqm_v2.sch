@@ -454,8 +454,6 @@ Wire Wire Line
 Wire Wire Line
 	12650 1500 12650 1650
 Connection ~ 13300 1650
-Wire Wire Line
-	12650 1650 12950 1650
 Connection ~ 12650 1650
 Wire Wire Line
 	12650 1650 12650 1850
@@ -836,19 +834,6 @@ Wire Wire Line
 	8800 7500 8800 7750
 Wire Wire Line
 	8800 8050 8800 8300
-$Comp
-L Connector:TestPoint TP3
-U 1 1 6403558A
-P 12950 1500
-F 0 "TP3" H 13008 1618 50  0000 L CNN
-F 1 "TestPoint" H 13008 1527 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 13150 1500 50  0001 C CNN
-F 3 "~" H 13150 1500 50  0001 C CNN
-	1    12950 1500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	12950 1500 12950 1650
 Text Notes 9300 5200 0    50   ~ 0
 * The 50K resistor is a pull-down resistor that is used to ensure that the P-channel \nMOSFET operates in its linear region when both Vsolar and Vusb are disconnected.\n* A 10K resistor is used as a pull-down resistor to pull Vexternal down to near zero. Vexternal is used as a signal to enable the battery charger"
 $Comp
@@ -1125,9 +1110,6 @@ Wire Wire Line
 	6050 12400 6050 12600
 Text GLabel 8850 1500 0    50   Input ~ 0
 Vusb_protected
-Connection ~ 12950 1650
-Wire Wire Line
-	12950 1650 13300 1650
 Text GLabel 13900 1400 2    50   Input ~ 0
 Vexternal
 Wire Wire Line
@@ -1353,8 +1335,6 @@ Wire Wire Line
 	9650 8100 9650 8200
 Text Notes 3500 4650 0    50   ~ 0
 Overvoltage and polarity protection - Battery
-Wire Wire Line
-	4800 5150 5000 5150
 $Comp
 L Transistor_FET:DMG2301L Q12
 U 1 1 63CB8A96
@@ -1398,18 +1378,6 @@ F 2 "Diode_SMD:D_SOD-323" H 4600 5350 50  0001 C CNN
 F 3 "~" H 4600 5350 50  0001 C CNN
 	1    4600 5350
 	0    1    1    0   
-$EndComp
-Connection ~ 4800 5150
-$Comp
-L Connector:TestPoint TP12
-U 1 1 63C426CB
-P 4800 5150
-F 0 "TP12" H 4850 5500 50  0000 L CNN
-F 1 "TestPoint" H 4800 5400 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 5000 5150 50  0001 C CNN
-F 3 "~" H 5000 5150 50  0001 C CNN
-	1    4800 5150
-	1    0    0    -1  
 $EndComp
 Text GLabel 5000 5150 2    50   Input ~ 0
 Vbat_protected
@@ -1740,8 +1708,6 @@ Wire Wire Line
 	4600 5200 4600 5150
 Connection ~ 4600 5150
 Wire Wire Line
-	4600 5150 4800 5150
-Wire Wire Line
 	4600 5500 4250 5500
 Connection ~ 4250 5500
 Wire Wire Line
@@ -1753,8 +1719,6 @@ Wire Wire Line
 	4250 5850 4250 5900
 Text Notes 3500 2750 0    50   ~ 0
 Overvoltage and polarity protection - Solar panel
-Wire Wire Line
-	4800 3250 5000 3250
 $Comp
 L Transistor_FET:DMG2301L Q9
 U 1 1 648FE7E2
@@ -1799,18 +1763,6 @@ F 3 "~" H 4600 3450 50  0001 C CNN
 	1    4600 3450
 	0    1    1    0   
 $EndComp
-Connection ~ 4800 3250
-$Comp
-L Connector:TestPoint TP10
-U 1 1 648FE7FB
-P 4800 3250
-F 0 "TP10" H 4850 3600 50  0000 L CNN
-F 1 "TestPoint" H 4800 3500 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 5000 3250 50  0001 C CNN
-F 3 "~" H 5000 3250 50  0001 C CNN
-	1    4800 3250
-	1    0    0    -1  
-$EndComp
 Text GLabel 5000 3250 2    50   Input ~ 0
 Vsolar_protected
 Wire Wire Line
@@ -1848,8 +1800,6 @@ Wire Wire Line
 Wire Wire Line
 	4600 3300 4600 3250
 Connection ~ 4600 3250
-Wire Wire Line
-	4600 3250 4800 3250
 Wire Wire Line
 	4600 3600 4250 3600
 Connection ~ 4250 3600
@@ -2208,8 +2158,6 @@ Wire Wire Line
 Wire Wire Line
 	21200 6650 21400 6650
 Wire Wire Line
-	21200 6750 21400 6750
-Wire Wire Line
 	21200 6850 21400 6850
 Wire Wire Line
 	21200 6950 21400 6950
@@ -2245,37 +2193,37 @@ Grove - Laser PM2.5 Sensor (HM3301)
 $Comp
 L power:GND #PWR063
 U 1 1 64CA0B7A
-P 11400 11200
-F 0 "#PWR063" H 11400 10950 50  0001 C CNN
-F 1 "GND" H 11500 11100 50  0000 C CNN
-F 2 "" H 11400 11200 50  0001 C CNN
-F 3 "" H 11400 11200 50  0001 C CNN
-	1    11400 11200
+P 11600 11300
+F 0 "#PWR063" H 11600 11050 50  0001 C CNN
+F 1 "GND" H 11700 11200 50  0000 C CNN
+F 2 "" H 11600 11300 50  0001 C CNN
+F 3 "" H 11600 11300 50  0001 C CNN
+	1    11600 11300
 	-1   0    0    1   
 $EndComp
 $Comp
 L power:+5V #PWR064
 U 1 1 64CCBA07
-P 11550 11250
-F 0 "#PWR064" H 11550 11100 50  0001 C CNN
-F 1 "+5V" H 11600 11400 50  0000 C CNN
-F 2 "" H 11550 11250 50  0001 C CNN
-F 3 "" H 11550 11250 50  0001 C CNN
-	1    11550 11250
+P 11750 11350
+F 0 "#PWR064" H 11750 11200 50  0001 C CNN
+F 1 "+5V" H 11800 11500 50  0000 C CNN
+F 2 "" H 11750 11350 50  0001 C CNN
+F 3 "" H 11750 11350 50  0001 C CNN
+	1    11750 11350
 	1    0    0    -1  
 $EndComp
 Text Label 15500 7150 3    50   ~ 0
 HM3301_SCL
 Text Label 15600 7350 3    50   ~ 0
 HM3301_SDA
-Text Label 11550 11500 0    39   ~ 0
+Text Label 11750 11600 0    39   ~ 0
 HM3301_SDA
-Text Label 11550 11600 0    39   ~ 0
+Text Label 11750 11700 0    39   ~ 0
 HM3301_SCL
 Wire Wire Line
-	11400 11200 11400 11300
+	11600 11300 11600 11400
 Wire Wire Line
-	11550 11400 11550 11250
+	11750 11500 11750 11350
 Wire Notes Line
 	12350 11000 10800 11000
 $Comp
@@ -3460,29 +3408,29 @@ Text Label 16450 6750 2    50   ~ 0
 LORA_MISO
 Text Label 21400 6950 0    50   ~ 0
 S0
-Text Label 21400 6750 0    50   ~ 0
+Text Label 21650 6750 0    50   ~ 0
 FAN1
-Text Label 21400 6850 0    50   ~ 0
+Text Label 21400 6750 0    50   ~ 0
 FAN2
 $Comp
 L Connector:Conn_01x04_Male J11
 U 1 1 643FCEC2
-P 11000 11400
-F 0 "J11" H 11108 11681 50  0000 C CNN
-F 1 "Conn_01x04_Male" H 11108 11590 50  0000 C CNN
-F 2 "Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical" H 11000 11400 50  0001 C CNN
-F 3 "~" H 11000 11400 50  0001 C CNN
-	1    11000 11400
+P 11200 11500
+F 0 "J11" H 11308 11781 50  0000 C CNN
+F 1 "Conn_01x04_Male" H 11308 11690 50  0000 C CNN
+F 2 "Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical" H 11200 11500 50  0001 C CNN
+F 3 "~" H 11200 11500 50  0001 C CNN
+	1    11200 11500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	11200 11500 11550 11500
+	11400 11600 11750 11600
 Wire Wire Line
-	11200 11600 11550 11600
+	11400 11700 11750 11700
 Wire Wire Line
-	11200 11400 11550 11400
+	11400 11500 11750 11500
 Wire Wire Line
-	11200 11300 11400 11300
+	11400 11400 11600 11400
 NoConn ~ 21400 6150
 NoConn ~ 21400 6250
 NoConn ~ 21400 6350
@@ -3712,6 +3660,67 @@ Wire Wire Line
 	13500 2450 14200 2450
 Wire Wire Line
 	15400 7150 16650 7150
+Wire Wire Line
+	4600 3250 5000 3250
+Wire Wire Line
+	4600 5150 5000 5150
+Wire Wire Line
+	12650 1650 13300 1650
+$Comp
+L Sensor:DHT11 U?
+U 1 1 6415422B
+P 11450 8050
+F 0 "U?" H 11200 8100 50  0000 R CNN
+F 1 "DHT11" H 11200 8050 50  0000 R CNN
+F 2 "Sensor:Aosong_DHT11_5.5x12.0_P2.54mm" H 11450 7650 50  0001 C CNN
+F 3 "http://akizukidenshi.com/download/ds/aosong/DHT11.pdf" H 11600 8300 50  0001 C CNN
+	1    11450 8050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 64154C07
+P 11450 8450
+F 0 "#PWR?" H 11450 8200 50  0001 C CNN
+F 1 "GND" H 11500 8250 50  0000 C CNN
+F 2 "" H 11450 8450 50  0001 C CNN
+F 3 "" H 11450 8450 50  0001 C CNN
+	1    11450 8450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11450 8350 11450 8450
+$Comp
+L power:+5V #PWR?
+U 1 1 641922FE
+P 11450 7650
+F 0 "#PWR?" H 11450 7500 50  0001 C CNN
+F 1 "+5V" H 11500 7850 50  0000 C CNN
+F 2 "" H 11450 7650 50  0001 C CNN
+F 3 "" H 11450 7650 50  0001 C CNN
+	1    11450 7650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11450 7650 11450 7750
+Text Label 11900 8050 0    50   ~ 0
+DHT11
+Wire Wire Line
+	11900 8050 11750 8050
+Wire Wire Line
+	21200 6750 21650 6750
+Text Label 21400 6850 0    50   ~ 0
+DHT11
+Text Notes 10500 7200 0    79   ~ 0
+Sensor de Temperatura DHT11/DHT22
+Wire Notes Line
+	12350 7250 10800 7250
+Wire Notes Line
+	10800 7250 10800 8750
+Wire Notes Line
+	10800 8750 12350 8750
+Wire Notes Line
+	12350 7250 12350 8750
 Wire Bus Line
 	15850 2650 16850 2650
 Wire Bus Line
