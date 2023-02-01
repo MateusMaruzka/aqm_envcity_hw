@@ -3,6 +3,7 @@
 ## Table of Contents
 - [Sensors](#sensors)
 - [Powering the board](#powering-the-board)
+- [Versions] (#versions)
 - [Contributing](#contributing)
 
 ## Introduction
@@ -21,6 +22,8 @@ Your board supports the following energy sources:
 - Battery
 - USB-C
 
+## Versions
+There's 2 versions, one it's a 2 layer board and the other it's a 4 layer board (This version could easily be made into a 6 layer board and the fab costs on JLCPCB is the same for 4 or 6 layer boards)
 
 ## Contributing
 If you have any questions, suggestions, or requests, please send an email to mateusroncaglio@alunos.utfpr.edu.br. We welcome contributions to the project!
