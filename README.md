@@ -3,7 +3,7 @@
 ## Table of Contents
 - [Sensors](#sensors)
 - [Powering the board](#powering-the-board)
-- [Versions] (#versions)
+- [Versions](#versions)
 - [Contributing](#contributing)
 
 ## Introduction
