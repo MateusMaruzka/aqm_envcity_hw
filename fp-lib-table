@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "ESP32-S2-SOLO-N4R2")(type "KiCad")(uri "${KIPRJMOD}/libs/LIB_ESP32-S2-SOLO-N4R2/ESP32-S2-SOLO-N4R2")(options "")(descr ""))
+)
