@@ -1,0 +1,32 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model 105164-0001
+#/247135/1028862/2.50/11/3/Connector
+DEF 105164-0001 J 0 30 Y Y 1 F N
+F0 "J" 950 300 50 H V L CNN
+F1 "105164-0001" 950 200 50 H V L CNN
+F2 "1051640001" 950 100 50 H I L CNN
+F3 "https://www.molex.com/pdm_docs/sd/1051640001_sd.pdf" 950 0 50 H I L CNN
+F4 "USB - micro B USB 2.0 Receptacle Connector 5 Position Surface Mount, Right Angle; Through Hole" 950 -100 50 H I L CNN "Description"
+F5 "2.7" 950 -200 50 H I L CNN "Height"
+F6 "538-105164-0001" 950 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Molex/105164-0001?qs=JAwGc6FMfvtRY4SkW%2FoGcQ%3D%3D" 950 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Molex" 950 -500 50 H I L CNN "Manufacturer_Name"
+F9 "105164-0001" 950 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X VBUS 1 0 0 200 R 50 50 0 0 P
+X D- 2 0 -100 200 R 50 50 0 0 P
+X D+ 3 0 -200 200 R 50 50 0 0 P
+X ID 4 0 -300 200 R 50 50 0 0 P
+X GND 5 0 -400 200 R 50 50 0 0 P
+X MH1 MH1 0 -500 200 R 50 50 0 0 P
+X MH2 MH2 1100 0 200 L 50 50 0 0 P
+X MP1 MP1 1100 -100 200 L 50 50 0 0 P
+X MP2 MP2 1100 -200 200 L 50 50 0 0 P
+X MP3 MP3 1100 -300 200 L 50 50 0 0 P
+X MP4 MP4 1100 -400 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -600 200 -600 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

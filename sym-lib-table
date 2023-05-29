@@ -4,5 +4,6 @@
   (lib (name "ESP32-S2-SOLO-N4R2")(type "KiCad")(uri "${KIPRJMOD}/libs/LIB_ESP32-S2-SOLO-N4R2/ESP32-S2-SOLO-N4R2/ESP32-S2-SOLO-N4R2.kicad_sym")(options "")(descr ""))
   (lib (name "AB26TRB-32.768KHZ-T")(type "KiCad")(uri "${KIPRJMOD}/libs/AB26TRB-32.768KHZ-T/AB26TRB-32.768KHZ-T.kicad_sym")(options "")(descr ""))
   (lib (name "FDSD0630-H-1R0M_P3")(type "KiCad")(uri "${KIPRJMOD}/libs/FDSD0630-H-1R0M_P3/FDSD0630-H-1R0M_P3.kicad_sym")(options "")(descr ""))
-  (lib (name "503398-1892")(type "Legacy")(uri "${KIPRJMOD}/libs/LIB_503398-1892/503398-1892/KiCad/503398-1892.lib")(options "")(descr ""))
+  (lib (name "503398-1892")(type "KiCad")(uri "${KIPRJMOD}/libs/LIB_503398-1892/503398-1892/Molex 503398-1892/503398-1892.kicad_sym")(options "")(descr ""))
+  (lib (name "105164-0001")(type "KiCad")(uri "${KIPRJMOD}/libs/LIB_105164-0001/105164-0001/KiCad/105164-0001.kicad_sym")(options "")(descr ""))
 )
