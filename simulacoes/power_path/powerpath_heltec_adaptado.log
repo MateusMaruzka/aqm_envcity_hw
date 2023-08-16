@@ -1,7 +1,6 @@
-Circuit: * C:\Users\maruzka\Documents\Kicad\envcity_aqm_v2\simulacoes\power_path\powerpath_heltec_adaptado.asc
+Circuit: * C:\Users\maruzka\Documents\Kicad\AQM-WROOM\aqm_envcity_hw\simulacoes\power_path\powerpath_heltec_adaptado.asc
 
-WARNING: Less than two connections to node VIN2.  This node is used by V1.
-WARNING: Less than two connections to node VIN1.  This node is used by V3.
+WARNING: Specified period is not longer than the sum of Trise, Tfall, and Ton for v3.  Increasing period to 0.02
 Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
 Starting Gmin stepping
 Gmin = 10
@@ -23,27 +22,27 @@ Gmin = 0
 Gmin stepping succeeded in finding the operating point.
 
 
-pin: AVG(v(vin1)*-i(v3))=0 FROM 0 TO 0.05
+pin: AVG(v(vin1)*-i(v3))=5.1041 FROM 0 TO 0.05
 
 Measurement "pout" FAIL'ed
 
 Measurement "eff" FAIL'ed
 
 
-Date: Sun Jan 22 14:48:18 2023
-Total elapsed time: 0.363 seconds.
+Date: Sat Jun 24 20:06:13 2023
+Total elapsed time: 0.250 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 2526
-traniter = 2082
-tranpoints = 1042
-accept = 1042
-rejected = 0
-matrix size = 50
-fillins = 70
+totiter = 4407
+traniter = 4056
+tranpoints = 1554
+accept = 1413
+rejected = 141
+matrix size = 48
+fillins = 56
 solver = Normal
-Matrix Compiler1: 7.80 KB object code size  3.2/2.7/[1.2]
-Matrix Compiler2: 5.48 KB object code size  1.4/1.6/[0.7]
+Matrix Compiler1: 6.87 KB object code size  2.1/0.8/[0.5]
+Matrix Compiler2: 5.19 KB object code size  1.2/0.9/[0.5]
 

@@ -1,0 +1,23 @@
+Circuit: * C:\Users\maruzka\Documents\Kicad\AQM-WROOM\aqm_envcity_hw\simulacoes\Draft1.asc
+
+WARNING: Specified period is not longer than the sum of Trise, Tfall, and Ton for v1.  Increasing period to 0.002
+WARNING: Specified period is not longer than the sum of Trise, Tfall, and Ton for v2.  Increasing period to 0.002
+Direct Newton iteration for .op point succeeded.
+
+Date: Sat Jun 24 19:55:22 2023
+Total elapsed time: 0.265 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 4712
+traniter = 4702
+tranpoints = 1587
+accept = 1407
+rejected = 180
+matrix size = 16
+fillins = 3
+solver = Normal
+Matrix Compiler1: 1008 bytes object code size  0.5/0.2/[0.1]
+Matrix Compiler2: 1.25 KB object code size  0.1/0.2/[0.1]
+
