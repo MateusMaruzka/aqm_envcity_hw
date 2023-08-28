@@ -1,9 +1,9 @@
-Circuit: * C:\Users\maruzka\Documents\Kicad\envcity_aqm_v2\simulacoes\power_path\Draft2.asc
+Circuit: * C:\Users\maruzka\Documents\Kicad\AQM-WROOM\aqm_envcity_hw\simulacoes\power_path\Draft2.asc
 
 Direct Newton iteration for .op point succeeded.
 
-Date: Sun Jan 22 16:19:13 2023
-Total elapsed time: 0.179 seconds.
+Date: Sat Aug 26 20:15:24 2023
+Total elapsed time: 0.094 seconds.
 
 tnom = 27
 temp = 27
@@ -13,9 +13,9 @@ traniter = 2082
 tranpoints = 1042
 accept = 1042
 rejected = 0
-matrix size = 18
+matrix size = 11
 fillins = 0
 solver = Normal
-Matrix Compiler1: 780 bytes object code size  0.5/0.3/[0.2]
-Matrix Compiler2: 1.27 KB object code size  0.3/0.5/[0.2]
+Matrix Compiler1: 548 bytes object code size  0.3/0.1/[0.1]
+Matrix Compiler2: 861 bytes object code size  0.1/0.1/[0.1]
 

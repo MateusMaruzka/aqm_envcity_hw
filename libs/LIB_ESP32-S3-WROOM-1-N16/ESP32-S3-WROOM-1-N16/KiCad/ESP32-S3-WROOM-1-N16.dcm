@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ESP32-S3-WROOM-1-N16
+D WiFi Modules - 802.11 [Engineering Samples] SMD Module, ESP32-S3, 16 MB SPI Flash, PCB Antenna
+K
+F https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'PESD24VS1UL_QZ'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Nexperia", "PESD24VS1UL-QZ" (!) = "", "PESD24VS1ULQZ", "Other", "", "", "Unidirectional ESD protection diode ", "https://assets.nexperia.com/documents/data-sheet/PESD24VS1UL-Q.pdf", "0.5 mm"
+END_PART
+
+END.

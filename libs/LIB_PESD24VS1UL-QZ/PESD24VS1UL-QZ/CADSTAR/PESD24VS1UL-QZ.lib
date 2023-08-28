@@ -1,0 +1,15 @@
+.PESD24VS1UL-QZ :1 ;Unidirectional ESD protection diode 
+PESD24VS1ULQZ
+*STM D
+*NGS
+*PLB 1="K" 2="A"
+*MXP 2
+*DFN PESD24VS1UL-QZ
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Manufacturer_Name (Nexperia)
+~!Manufacturer_Part_Number (PESD24VS1UL-QZ)
+~!Link Datasheet (https://assets.nexperia.com/documents/data-sheet/PESD24VS1UL-Q.pdf)
+~!Height (0.5mm)
+PESD24VS1UL-QZ
+1.1!U 2.1!U 

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PESD24VS1UL-QZ
+D Unidirectional ESD protection diode 
+K
+F https://assets.nexperia.com/documents/data-sheet/PESD24VS1UL-Q.pdf
+$ENDCMP
+#
+#End Doc Library

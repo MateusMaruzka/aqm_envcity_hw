@@ -1,0 +1,27 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model PESD24VS1UL-QZ
+#/17154587/1028862/2.50/2/2/Diode ESD (Uni-directional)
+DEF PESD24VS1UL-QZ D 0 30 Y Y 1 F N
+F0 "D" 400 350 50 H V L CNN
+F1 "PESD24VS1UL-QZ" 400 250 50 H V L CNN
+F2 "PESD24VS1ULQZ" 400 150 50 H I L CNN
+F3 "https://assets.nexperia.com/documents/data-sheet/PESD24VS1UL-Q.pdf" 400 50 50 H I L CNN
+F4 "Unidirectional ESD protection diode " 400 -50 50 H I L CNN "Description"
+F5 "0.5" 400 -150 50 H I L CNN "Height"
+F6 "" 400 -250 50 H I L CNN "Mouser Part Number"
+F7 "" 400 -350 50 H I L CNN "Mouser Price/Stock"
+F8 "Nexperia" 400 -450 50 H I L CNN "Manufacturer_Name"
+F9 "PESD24VS1UL-QZ" 400 -550 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 600 0 100 L 50 50 0 0 P
+P 4 0 1 6 200 0 400 100 400 -100 200 0 N
+P 2 0 1 6 200 100 200 -100 N
+P 2 0 1 6 100 0 200 0 N
+P 2 0 1 6 500 0 400 0 N
+P 2 0 1 6 200 -100 260 -100 N
+ENDDRAW
+ENDDEF
+#
+#End Library
