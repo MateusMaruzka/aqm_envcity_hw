@@ -1,0 +1,17 @@
+.105164-0001 :1 ;USB - micro B USB 2.0 Receptacle Connector 5 Position Surface Mount, Right Angle; Through Hole
+"1051640001"
+*STM J
+*NGS
+*PNM 1=1 2=2 3=3 4=4 5=5 6=MH1 7=MH2 8=MP1 9=MP2 10=MP3 11=MP4
+*PLB 1="VBUS" 2="D-" 3="D+" 4="ID" 5="GND" 6="MH1" 7="MH2" 8="MP1" 9="MP2" 10="MP3" 11="MP4"
+*MXP 11
+*DFN 105164-0001
+~!Mouser Part Number (538-105164-0001)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Molex/105164-0001?qs=JAwGc6FMfvtRY4SkW%2FoGcQ%3D%3D)
+~!Manufacturer_Name (Molex)
+~!Manufacturer_Part_Number (105164-0001)
+~!Link Datasheet (https://www.molex.com/pdm_docs/sd/1051640001_sd.pdf)
+~!Height (2.7mm)
+~!3D_Model (105164-0001)
+"105164-0001"
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 

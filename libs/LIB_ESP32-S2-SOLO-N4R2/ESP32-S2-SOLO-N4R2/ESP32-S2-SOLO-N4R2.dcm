@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ESP32-S2-SOLO-N4R2
+D WiFi Modules - 802.11 SMD module, ESP32-S2R2 with 2 MB PSRAM inside, 4 MB SPI flash, PCB antenna/002
+K
+F https://www.espressif.com/sites/default/files/documentation/esp32-s2-solo_esp32-s2-solo-u_datasheet_en.pdf
+$ENDCMP
+#
+#End Doc Library

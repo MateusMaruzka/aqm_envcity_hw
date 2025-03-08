@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "PESD24VS1ULQZ"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "PESD24VS1ULQZ")
+        (spec "default")
+    )
+)

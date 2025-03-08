@@ -1,4 +1,10 @@
 (sym_lib_table
-  (lib (name dk_Data-Acquisition-Analog-to-Digital-Converters-ADC)(type Legacy)(uri C:/Users/maruzka/Downloads/digikey-kicad-library-master/digikey-kicad-library-master/digikey-symbols/dk_Data-Acquisition-Analog-to-Digital-Converters-ADC.lib)(options "")(descr ""))
-  (lib (name raspberrypi4-rescue)(type Legacy)(uri C:/Users/maruzka/Documents/Kicad/envcity_multi_pcb/raspberrypi4/raspberrypi4-rescue.lib)(options "")(descr ""))
+  (version 7)
+  (lib (name "envcity_aqm_v2-rescue")(type "KiCad")(uri "${KIPRJMOD}/envcity_aqm_v2-rescue.kicad_sym")(options "")(descr ""))
+  (lib (name "ESP32-S2-SOLO-N4R2")(type "KiCad")(uri "${KIPRJMOD}/libs/LIB_ESP32-S2-SOLO-N4R2/ESP32-S2-SOLO-N4R2/ESP32-S2-SOLO-N4R2.kicad_sym")(options "")(descr ""))
+  (lib (name "AB26TRB-32.768KHZ-T")(type "KiCad")(uri "${KIPRJMOD}/libs/AB26TRB-32.768KHZ-T/AB26TRB-32.768KHZ-T.kicad_sym")(options "")(descr ""))
+  (lib (name "FDSD0630-H-1R0M_P3")(type "KiCad")(uri "${KIPRJMOD}/libs/FDSD0630-H-1R0M_P3/FDSD0630-H-1R0M_P3.kicad_sym")(options "")(descr ""))
+  (lib (name "503398-1892")(type "KiCad")(uri "${KIPRJMOD}/libs/LIB_503398-1892/503398-1892/Molex 503398-1892/503398-1892.kicad_sym")(options "")(descr ""))
+  (lib (name "105164-0001")(type "KiCad")(uri "${KIPRJMOD}/libs/LIB_105164-0001/105164-0001/KiCad/105164-0001.kicad_sym")(options "")(descr ""))
+  (lib (name "PESD24VS1UL-QZ")(type "KiCad")(uri "${KIPRJMOD}/libs/LIB_PESD24VS1UL-QZ/PESD24VS1UL-QZ/KiCad/PESD24VS1UL-QZ.kicad_sym")(options "")(descr ""))
 )
